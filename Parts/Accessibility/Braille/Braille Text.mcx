@@ -1,0 +1,323 @@
+{
+  "ID": "12355e66-bdf8-4d7e-a2ca-442523164e7d",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "5fbd822b-fbb7-4ceb-8338-44072e2dde18",
+      "AddHook": false,
+      "BaseHeight": 3.0,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-22.009581289355467,-1.1354999694627645,3.2105094736141941,1.0]",
+      "Name": "Braille",
+      "RenderAsBraille": true,
+      "TextToEncode": "Braille",
+      "TypeName": "BrailleObject3D",
+      "UseGrade2": false,
+      "Children": [
+        {
+          "ID": "682fc2f5-2aab-4542-89b1-56758504efae",
+          "Advanced": false,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,-1.4684384250000002,1.4033583168672383E-07,-3.2105094731770802,1.0]",
+          "Name": "Align",
+          "SelectedChild": [],
+          "StartingMin": {},
+          "TypeName": "AlignObject3D",
+          "XAlign": "None",
+          "XAlignTo": "None",
+          "XOffset": 0.0,
+          "YAlign": "None",
+          "YAlignTo": "None",
+          "YOffset": 0.0,
+          "ZAlign": "None",
+          "ZAlignTo": "None",
+          "ZOffset": 0.0,
+          "Children": [
+            {
+              "ID": "eaf6e576-0c39-4708-a1c2-7bd17d2d2476",
+              "Advanced": false,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-2.99,1.0]",
+              "Name": "Align",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "None",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "None",
+              "YAlignTo": "None",
+              "YOffset": 0.0,
+              "ZAlign": "None",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "d0b52642-97d8-4b1d-ae0b-10f136230c25",
+                  "MeshPath": "A10453E23E9D6D37D4346A1BCF7AD1FB443B7CAF.stl",
+                  "Name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "d12e3ea4-387a-4f30-94c7-abee1a28ca99",
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,0.0,0.0,0.0,1.0]",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "27a66aea-2554-453c-9ec6-c2569aed6f70",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "1e59ff37-9fe8-4b13-a12d-81f9fd790f31",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "66f61946-9e4d-4c52-b037-a656e595e75b",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "7e402aed-d6c1-43c5-b0ec-dc59a7446547",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,6.2884515885416663,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "05919130-46a6-45b0-b2c0-9940f83555d4",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "2e6798ff-c913-4d67-b844-af2f655bbde7",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "61f7a368-7581-4e83-b20f-632c2f32e1c7",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,0.33141839453124994,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "b03e4067-9831-4e3f-891f-0cc86a10feb5",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,4.3169370364583326,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "7c7d27a6-b34b-47d3-b9cd-f6fd4957944e",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,12.576903177083333,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "ad5a6ddc-05b9-4cb8-81b4-c9d8c6dba7db",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "2ba885c9-9f94-465a-bdd5-c07c92684b89",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,18.865354765625,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "476c03f4-49c9-49a2-b23e-cbe1953f5756",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "df656788-addc-484b-8e81-28afd61b5f18",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,4.3169370364583326,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "d416603e-4e6f-4d3f-9210-67cd5fd71c98",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,25.153806354166665,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "4d0647d3-3639-44b4-be74-5506247c8dee",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "91ce8727-33d2-403a-823f-30292d093161",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "cc608677-0ef6-4067-89d1-a398aa686543",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,0.33141839453124994,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "2bcd2ca0-1b54-4489-b434-a417b50d68c2",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,31.442257942708331,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "658fdfa3-0d1a-4c53-9828-ae3433f6d029",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "d49dfdd4-0448-4c41-99ef-130651b582be",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "7762b0f2-13e0-46d2-a053-5b240aa548e6",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,0.33141839453124994,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            },
+            {
+              "ID": "25412e07-7110-495f-9313-d9b7c4c0a9a0",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,37.73070953125,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "530f5298-7a30-49f5-80ab-c850beda2c06",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                },
+                {
+                  "ID": "6baa1f58-3b84-4a5e-81a1-01e24bda632a",
+                  "Color": "#ADD8E6",
+                  "Diameter": 1.44,
+                  "LatitudeSides": 15,
+                  "LongitudeSides": 15,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,4.3169370364583326,2.6768408789062503,0.0,1.0]",
+                  "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                  "Name": "Half Sphere",
+                  "ThumbnailName": "Half Sphere",
+                  "TypeName": "HalfSphereObject3D"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

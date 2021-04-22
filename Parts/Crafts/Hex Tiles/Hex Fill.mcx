@@ -1,0 +1,13 @@
+{
+  "ID": "303aa5f7-6f59-4b91-97c8-a0cb191b804e",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "c33e60bb-42df-43ec-abe6-bce0ccb54810",
+      "Color": "#66FF66",
+      "MeshPath": "D04B9C87C1AC9E6C2F16CB5EC632B73BD6150F82.stl",
+      "Name": "Hex Tile",
+      "OutputType": 1
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "ID": "cb088231-03e9-4f51-83a6-818a55012b66",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "68f2655d-0f0b-4bcb-b4e0-d919dd2233bd",
+      "ComponentID": "",
+      "Finalized": true,
+      "Name": "Phil and Text",
+      "ProOnly": false,
+      "SurfacedEditors": [
+        "$.Children<AlignObject3D>.Children<AlignObject3D>.Children<FitToBoundsObject3D>.Children<Object3D>.Children<TextObject3D>.NameToWrite",
+        "$.Children<AlignObject3D>.Children<AlignObject3D>.Children<FitToBoundsObject3D>.Children<Object3D>.Children<TextObject3D>.Font"
+      ],
+      "TypeName": "ComponentObject3D",
+      "Children": [
+        {
+          "ID": "3ba34e62-7b65-4ce3-81b5-c96ffc6b0339",
+          "Advanced": true,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,131.048086520283,2.9999982492452659,5.6843418860808015E-14,1.0]",
+          "Name": "Align",
+          "SelectedChild": [],
+          "StartingMin": {},
+          "TypeName": "AlignObject3D",
+          "XAlign": "Center",
+          "XAlignTo": "None",
+          "XOffset": 0.0,
+          "YAlign": "Center",
+          "YAlignTo": "None",
+          "YOffset": 10.0,
+          "ZAlign": "Min",
+          "ZAlignTo": "None",
+          "ZOffset": 2.0,
+          "Children": [
+            {
+              "ID": "2fd33097-6624-420d-a781-4d1c55c37549",
+              "Advanced": true,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-142.0,-25.999996498490546,-5.6843418860808015E-14,1.0]",
+              "Name": "Align (1)",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "Center",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "Center",
+              "YAlignTo": "None",
+              "YOffset": -30.0,
+              "ZAlign": "Min",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "1277ec56-fc8b-40ed-b5a5-d235e625a7cc",
+                  "Advanced": true,
+                  "Matrix": "[0.86602549120720551,-0.49999984857929552,0.0,0.0,0.49999984857929552,0.86602549120720551,0.0,0.0,0.0,0.0,1.0,0.0,70.987471555039946,0.9846367852436444,0.0,1.0]",
+                  "Name": "Align",
+                  "SelectedChild": [],
+                  "StartingMin": {},
+                  "TypeName": "AlignObject3D",
+                  "XAlign": "Center",
+                  "XAlignTo": "None",
+                  "XOffset": 0.0,
+                  "YAlign": "Center",
+                  "YAlignTo": "None",
+                  "YOffset": 0.0,
+                  "ZAlign": "Min",
+                  "ZAlignTo": "None",
+                  "ZOffset": 2.0,
+                  "Children": [
+                    {
+                      "ID": "75069cb9-3c9a-44af-ad20-8a43dcad8ebd",
+                      "Advanced": false,
+                      "Color": "#B0FE86",
+                      "Diameter": 150.0,
+                      "DiameterTop": 20.0,
+                      "EndingAngle": 360.0,
+                      "Height": 2.0,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-63.0,-10.951904296875,1.0,1.0]",
+                      "MeshPath": "F19842F7E3BC069D29E9F41F85D5E1DA80AF5118.stl",
+                      "Name": "Cylinder",
+                      "Sides": 6,
+                      "StartingAngle": 0.0,
+                      "ThumbnailName": "Cylinder",
+                      "TypeName": "CylinderObject3D"
+                    },
+                    {
+                      "ID": "48219add-4df4-4ffc-a34a-62f0f429af61",
+                      "Advanced": false,
+                      "Color": "#8A86FE",
+                      "EndingAngle": 360.0,
+                      "Height": 2.0,
+                      "InnerDiameter": 130.0,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-63.0,-10.951908111572266,3.0,1.0]",
+                      "MeshPath": "7AE66B20F7478F5B1B14595FCDAF336428772BA6.stl",
+                      "Name": "Ring",
+                      "OuterDiameter": 150.0,
+                      "Sides": 6,
+                      "StartingAngle": 0.0,
+                      "ThumbnailName": "Ring",
+                      "TypeName": "RingObject3D"
+                    }
+                  ]
+                },
+                {
+                  "ID": "03d1b1ba-344b-4b54-b881-8df390058cab",
+                  "Depth": 12.0,
+                  "Diameter": 27.465883979380564,
+                  "FitType": 0,
+                  "Height": 4.0,
+                  "MaintainRatio": 1,
+                  "MaterialIndex": 1,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-83.26836463630292,43.529595665765385,-0.5,1.0]",
+                  "Name": "Fit to Bounds",
+                  "StretchX": true,
+                  "StretchY": true,
+                  "StretchZ": true,
+                  "TypeName": "FitToBoundsObject3D",
+                  "Width": 90.0,
+                  "Children": [
+                    {
+                      "ID": "cc370e04-161d-4bab-be48-b8cd49ac9332",
+                      "Matrix": "[0.98644344543292561,0.0,0.0,0.0,0.0,0.98644344543292561,0.0,0.0,0.0,0.0,0.8,0.0,1.2773023416047522,-0.68500724462935381,0.5,1.0]",
+                      "Name": "",
+                      "Children": [
+                        {
+                          "ID": "a3cecdc0-8342-41c4-b177-61f24c743134",
+                          "Color": "#F8FE86",
+                          "Font": "Alfa_Slab",
+                          "Height": 5.0,
+                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,48.376071473776847,-54.841955453157425,0.0,1.0]",
+                          "Name": "Text",
+                          "NameToWrite": "MatterHackers",
+                          "PointSize": 24.0,
+                          "ThumbnailName": "Text",
+                          "TypeName": "TextObject3D",
+                          "Children": [
+                            {
+                              "ID": "7533b6be-ada6-428c-9ba4-003d5e43334f",
+                              "MeshPath": "96C9E83C6AE4766EBE58A5CB818DBAE999643AFA.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "37321da0-4629-4c44-a631-37d9863d4ffd",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,12.903208128,0.0,0.0,1.0]",
+                              "MeshPath": "114529D995F324732B964D51DAFAD50680ACAFF3.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "039459a6-e5a5-43f7-ad9d-d994704169fa",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,19.845879168,0.0,0.0,1.0]",
+                              "MeshPath": "B7EB7436CD79A2F420FD6F8DC43B8D990FC1F687.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "85230da0-b119-4f9b-a1b7-572be0fa4982",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,24.937171264,0.0,0.0,1.0]",
+                              "MeshPath": "B7EB7436CD79A2F420FD6F8DC43B8D990FC1F687.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "78cb4f7d-26e3-4d0f-b58f-24f07dcdfbfb",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,30.02846336,0.0,0.0,1.0]",
+                              "MeshPath": "CC01BE07C2E6EF6F16E19E7026EE382DDD2CBB3F.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "cd717695-c112-4ac1-a073-b216f7b59718",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,36.734067584,0.0,0.0,1.0]",
+                              "MeshPath": "8D2F04427F1CB7D302767790492CB8427100CE11.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "a2e0665f-dafb-4544-b5a9-1eee4c2241e6",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,42.683315776,0.0,0.0,1.0]",
+                              "MeshPath": "BC1DC3ED1A17A9D0734628E3639673906B69D2D1.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "2ce5b33a-414f-42fa-84c9-62c431fc75c7",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,52.165988416,0.0,0.0,1.0]",
+                              "MeshPath": "114529D995F324732B964D51DAFAD50680ACAFF3.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "af79d101-ada1-488e-9d66-97dcd4feafee",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,59.108659456,0.0,0.0,1.0]",
+                              "MeshPath": "5DA093F80E3FE30C9236F0A47D603DFAF4016D9D.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "5b2ce6d2-cb17-4a88-972b-157e15ed31d3",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,65.453019008,0.0,0.0,1.0]",
+                              "MeshPath": "FF1639A0269A77507A11EF2B0FE8C656EFC50382.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "d0770299-cee7-47b7-9eb4-809fd020498c",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,73.106890496,0.0,0.0,1.0]",
+                              "MeshPath": "CC01BE07C2E6EF6F16E19E7026EE382DDD2CBB3F.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "ea9b5b50-d59e-4fb1-8f62-5c219bec7ac8",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,79.81249472,0.0,0.0,1.0]",
+                              "MeshPath": "8D2F04427F1CB7D302767790492CB8427100CE11.stl",
+                              "Name": ""
+                            },
+                            {
+                              "ID": "a2d7dde0-d9be-458d-bfc9-d761d21b8daf",
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,85.761742912,0.0,0.0,1.0]",
+                              "MeshPath": "064BD43A9AC5DB12D47958AB6BE7DDED222013DF.stl",
+                              "Name": ""
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ID": "d9823697-c194-4f2e-b712-41d4150f7c63",
+              "MaitainProportions": true,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-131.048086520283,7.000001750754727,1.9999999999999434,1.0]",
+              "Name": "Scale (1)",
+              "Operation": 0,
+              "ScaleAbout": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ScaleRatio": {
+                "X": 0.65004545901785993,
+                "Y": 0.65004545901785993,
+                "Z": 0.65004545901785993
+              },
+              "TypeName": "ScaleObject3D",
+              "UsePercentage": false,
+              "Children": [
+                {
+                  "ID": "1c70d55a-087f-4448-a0ed-cd34910755e7",
+                  "Matrix": "[0.65004545901785993,0.0,0.0,0.0,0.0,0.65004545901785993,0.0,0.0,0.0,0.0,0.65004545901785993,0.0,0.0,0.0,0.0,1.0]",
+                  "Name": "",
+                  "Children": [
+                    {
+                      "ID": "00792327-ed55-4eb9-ba4f-fb841371a1b9",
+                      "MaterialIndex": 1,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.3113417006110419E-07,-0.99999999999999134,0.0,0.0,0.99999999999999134,1.3113417006110419E-07,0.0,-0.004535675048828125,-0.0047584462248053683,6.5556254896038913E-06,1.0]",
+                      "MeshPath": "DF8F4650D5AE53832C3A6C26631E0A09695645EF.stl",
+                      "Name": "Phil Front.stl"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "ID": "25294a7e-c7eb-4eb0-bb95-bd3a9fdf8a8e",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "da159256-4cba-46f2-92f1-7733ce3f2dd4",
+      "BaseHeight": 4.0,
+      "Letter": "a",
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-2.1442257977172847,-1.6354999694627645,3.2105094736141941,1.0]",
+      "Name": "Braille Tile",
+      "TypeName": "BrailleCardObject3D",
+      "Children": [
+        {
+          "ID": "d3d1c567-4889-484c-a749-0df3ed540ac7",
+          "AddHook": false,
+          "BaseHeight": 4.0,
+          "Name": "",
+          "RenderAsBraille": true,
+          "TextToEncode": "a",
+          "TypeName": "BrailleObject3D",
+          "UseGrade2": false,
+          "Children": [
+            {
+              "ID": "fb879045-515e-4bc5-98b4-466ebfdbcaf6",
+              "Advanced": false,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,-1.4684384250000002,1.4033583168672383E-07,-3.2105094731770802,1.0]",
+              "Name": "Align",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "None",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "None",
+              "YAlignTo": "None",
+              "YOffset": 0.0,
+              "ZAlign": "None",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "c8e7f00b-6149-4b65-bc2f-5e25f69b5b5f",
+                  "Advanced": false,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-3.99,1.0]",
+                  "Name": "Align",
+                  "SelectedChild": [],
+                  "StartingMin": {},
+                  "TypeName": "AlignObject3D",
+                  "XAlign": "None",
+                  "XAlignTo": "None",
+                  "XOffset": 0.0,
+                  "YAlign": "None",
+                  "YAlignTo": "None",
+                  "YOffset": 0.0,
+                  "ZAlign": "None",
+                  "ZAlignTo": "None",
+                  "ZOffset": 0.0,
+                  "Children": [
+                    {
+                      "ID": "dc478581-b389-4d1a-b5e7-d49fb8ba94d2",
+                      "MeshPath": "FF267B901ED1DC818C0FDD714DC7AC3201930C5E.stl",
+                      "Name": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ID": "76f30b22-12fb-4976-a63e-95ec6c6c6342",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,0.0,0.0,0.0,1.0]",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "1987cecb-7d66-4d2e-9e8d-331eec50fc19",
+                  "Name": "",
+                  "Children": [
+                    {
+                      "ID": "c4c748a5-f778-4e87-8ea2-ea498b3de0d9",
+                      "Color": "#ADD8E6",
+                      "Diameter": 1.44,
+                      "LatitudeSides": 15,
+                      "LongitudeSides": 15,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.9715145520833328,5.0222633632812483,0.0,1.0]",
+                      "MeshPath": "E5F8A479FD9C4453EDFA2BB682B25162905CF9DB.stl",
+                      "Name": "Half Sphere",
+                      "ThumbnailName": "Half Sphere",
+                      "TypeName": "HalfSphereObject3D"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "1ceec580-8c1e-4383-9cd6-f89a2a7b24aa",
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-3.5542584144428258,0.0,0.0,1.0]",
+          "Name": "",
+          "TypeName": "SetCenterObject3D",
+          "Children": [
+            {
+              "ID": "b3bcc63d-6abb-4432-9468-fb4eec1943d7",
+              "Advanced": false,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,-4.7310998334947554,11.928224565061919,1.0]",
+              "Name": "Align",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "None",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "None",
+              "YAlignTo": "None",
+              "YOffset": 0.0,
+              "ZAlign": "None",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "5be654be-2478-4886-a4e9-f171d5323552",
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,0.0,8.0151001311067418,0.2995381017578671,1.0]",
+                  "Name": "Rotate",
+                  "RotationXDegrees": 90.000002504478161,
+                  "RotationYDegrees": 0.0,
+                  "RotationZDegrees": 0.0,
+                  "TypeName": "RotateObject3D",
+                  "Children": [
+                    {
+                      "ID": "d1d04fb2-32b2-4416-be11-87ce363a8680",
+                      "Color": "#ADD8E6",
+                      "Font": "Alfa_Slab",
+                      "Height": 4.0,
+                      "Name": "Text",
+                      "NameToWrite": "a",
+                      "PointSize": 46.0,
+                      "ThumbnailName": "Text",
+                      "TypeName": "TextObject3D",
+                      "Children": [
+                        {
+                          "ID": "20b69783-e0d0-48e9-9583-ed55737b0cb0",
+                          "MeshPath": "DD4F2F15E4729230F2777EF3530367F4E14E788C.stl",
+                          "Name": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "790f5885-a1c6-4212-a32c-a90a86ce002e",
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.8557742022827153,0.0,0.0,1.0]",
+          "Name": "",
+          "TypeName": "SetCenterObject3D",
+          "Children": [
+            {
+              "ID": "644853b5-576e-463a-a843-f492b7c7b274",
+              "Advanced": false,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,3.9900001403358276,-3.2105092987686343,1.0]",
+              "Name": "Align",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "None",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "None",
+              "YAlignTo": "None",
+              "YOffset": 0.0,
+              "ZAlign": "None",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "1d19f433-6a6e-4091-bfc4-413d9b59ee15",
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,-4.3711390001864437E-08,0.999999999999999,0.0,0.0,-0.999999999999999,-4.3711390001864437E-08,0.0,0.0,0.0,0.0,1.0]",
+                  "MeshPath": "D712BD57F6AE4C238CE33D97C7EAD3CB0A7FE5B8.stl",
+                  "Name": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "d9ef483d-cd84-4f49-b9e3-bae04f4c5d33",
+          "Advanced": false,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,3.1442257977172847,-0.10000134734154444,0.0,1.0]",
+          "Name": "Align",
+          "SelectedChild": [],
+          "StartingMin": {},
+          "TypeName": "AlignObject3D",
+          "XAlign": "None",
+          "XAlignTo": "None",
+          "XOffset": 0.0,
+          "YAlign": "None",
+          "YAlignTo": "None",
+          "YOffset": 0.0,
+          "ZAlign": "None",
+          "ZAlignTo": "None",
+          "ZOffset": 0.0,
+          "Children": [
+            {
+              "ID": "d0999a29-222b-4fd0-a9b7-befd4f1ac2cd",
+              "Advanced": false,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,8.92822456506192,1.0]",
+              "Name": "Align",
+              "SelectedChild": [],
+              "StartingMin": {},
+              "TypeName": "AlignObject3D",
+              "XAlign": "None",
+              "XAlignTo": "None",
+              "XOffset": 0.0,
+              "YAlign": "None",
+              "YAlignTo": "None",
+              "YOffset": 0.0,
+              "ZAlign": "None",
+              "ZAlignTo": "None",
+              "ZOffset": 0.0,
+              "Children": [
+                {
+                  "ID": "4844a273-e6e4-4931-b925-0e73d2068cd1",
+                  "Color": "#FE8D86",
+                  "Depth": 0.2,
+                  "Height": 1.0,
+                  "MeshPath": "72B8B4B2558D7E214F2F195F92F714276DADFD84.stl",
+                  "Name": "Cube",
+                  "ThumbnailName": "Cube",
+                  "TypeName": "CubeObject3D",
+                  "Width": 22.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

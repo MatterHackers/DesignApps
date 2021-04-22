@@ -1,0 +1,197 @@
+{
+  "ID": "35ff73c7-7172-40cb-afb3-b36e605477e2",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "4cd73e9b-0acb-4bbe-891b-52e477ec2241",
+      "ComponentID": "",
+      "Finalized": true,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-3.2000007629394531,11.42500114440918,0.0,1.0]",
+      "Name": "Text",
+      "ProOnly": false,
+      "SurfacedEditors": [
+        "$.Children<AlignObject3D>.Children<RotateObject3D_2>.Children<Object3D>.Children<FitToBoundsObject3D_2>.Children<Object3D>.Children<TextObject3D>.NameToWrite",
+        "$.Children<AlignObject3D>.Children<RotateObject3D_2>.Children<Object3D>.Children<FitToBoundsObject3D_2>.Children<Object3D>.Children<TextObject3D>.Font"
+      ],
+      "TypeName": "ComponentObject3D",
+      "Children": [
+        {
+          "ID": "03b8ba35-daa6-4926-946c-01e09de2f44e",
+          "Advanced": true,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-128.59999847412109,-119.0,-1.4210854715202004E-14,1.0]",
+          "Name": "Align",
+          "SelectedChild": [],
+          "StartingMin": {},
+          "TypeName": "AlignObject3D",
+          "XAlign": "Center",
+          "XAlignTo": "None",
+          "XOffset": 0.0,
+          "YAlign": "Min",
+          "YAlignTo": "None",
+          "YOffset": 4.0,
+          "ZAlign": "Min",
+          "ZAlignTo": "None",
+          "ZOffset": 2.0,
+          "Children": [
+            {
+              "ID": "999a984e-1b18-430c-a95a-2c2546ee338c",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,81.0,79.0,1.4210854715202004E-14,1.0]",
+              "MeshPath": "3C08B8574540BBC18D9A76E13D636F8DAEB64026.stl",
+              "Name": "Base"
+            },
+            {
+              "ID": "0bca4e57-d9ee-4bf3-b205-c0bd56daf6ee",
+              "AngleDegrees": -17.0,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-31.953220105710216,-0.70602317856281616,-0.185521062865051,1.0]",
+              "Name": "Rotate",
+              "RotateAbout": {
+                "Normal": {
+                  "X": 1.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Origin": {
+                  "X": 131.79999923706055,
+                  "Y": 94.0,
+                  "Z": 7.5000000000000142
+                }
+              },
+              "TypeName": "RotateObject3D_2",
+              "Children": [
+                {
+                  "ID": "5a9bcea0-064b-4b89-91db-0593898180ac",
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,0.95630475596303544,0.29237170472273677,0.0,0.0,-0.29237170472273677,0.95630475596303544,0.0,0.0,6.3001407248952006,-27.155225913660018,1.0]",
+                  "Name": "",
+                  "Children": [
+                    {
+                      "ID": "b5d124c1-6944-484d-976d-cf5ec9e212c6",
+                      "MaintainRatio": 1,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.5329412267508644,27.470402583479895,5.0000000000000142,1.0]",
+                      "Name": "Fit to Bounds",
+                      "SizeX": 95.0,
+                      "SizeY": 20.0,
+                      "SizeZ": 5.0,
+                      "StretchX": true,
+                      "StretchY": true,
+                      "StretchZ": true,
+                      "TypeName": "FitToBoundsObject3D_2",
+                      "Children": [
+                        {
+                          "ID": "71b8f680-8397-421e-8510-4ffa8b752672",
+                          "Matrix": "[1.0412458590680882,0.0,0.0,0.0,0.0,1.0412458590680882,0.0,0.0,0.0,0.0,1.0,0.0,-6.6909147291594309,-2.7440703988984296,0.0,1.0]",
+                          "Name": "",
+                          "Children": [
+                            {
+                              "ID": "5c13cc69-6503-47bf-ae20-7c6b12cc1e2b",
+                              "Color": "#F8FE86",
+                              "Font": "Alfa_Slab",
+                              "Height": 5.0,
+                              "MaterialIndex": 1,
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,116.37607147377685,62.217239379882813,0.0,1.0]",
+                              "Name": "Text",
+                              "NameToWrite": "MatterHackers",
+                              "PointSize": 24.0,
+                              "ThumbnailName": "Text",
+                              "TypeName": "TextObject3D",
+                              "Children": [
+                                {
+                                  "ID": "3b5bd7d7-1b52-4ee5-87a3-f9c5d46fa6db",
+                                  "MeshPath": "96C9E83C6AE4766EBE58A5CB818DBAE999643AFA.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "7dab80c8-226f-4ed0-be11-cc825091a93c",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,12.903208128,0.0,0.0,1.0]",
+                                  "MeshPath": "114529D995F324732B964D51DAFAD50680ACAFF3.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "53ecb4e1-9db8-4ce7-bac8-361d29439465",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,19.845879168,0.0,0.0,1.0]",
+                                  "MeshPath": "B7EB7436CD79A2F420FD6F8DC43B8D990FC1F687.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "08369fe4-2938-4d62-9b14-567bd3a7c200",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,24.937171264,0.0,0.0,1.0]",
+                                  "MeshPath": "B7EB7436CD79A2F420FD6F8DC43B8D990FC1F687.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "f018f287-beb9-4d3e-8164-c90dd6ffe103",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,30.02846336,0.0,0.0,1.0]",
+                                  "MeshPath": "CC01BE07C2E6EF6F16E19E7026EE382DDD2CBB3F.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "f995bfc2-db1b-45f6-b0ad-46e44feb03d8",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,36.734067584,0.0,0.0,1.0]",
+                                  "MeshPath": "8D2F04427F1CB7D302767790492CB8427100CE11.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "ebb38f98-c8fa-44c2-975b-e4b1e9c46038",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,42.683315776,0.0,0.0,1.0]",
+                                  "MeshPath": "BC1DC3ED1A17A9D0734628E3639673906B69D2D1.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "5a16301a-947d-4275-a16e-07c04f2cee37",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,52.165988416,0.0,0.0,1.0]",
+                                  "MeshPath": "114529D995F324732B964D51DAFAD50680ACAFF3.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "4e975e16-99fe-412a-b98d-8b1fa353f924",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,59.108659456,0.0,0.0,1.0]",
+                                  "MeshPath": "5DA093F80E3FE30C9236F0A47D603DFAF4016D9D.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "6f552ef6-c1f9-4103-9fd2-577b297cf800",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,65.453019008,0.0,0.0,1.0]",
+                                  "MeshPath": "FF1639A0269A77507A11EF2B0FE8C656EFC50382.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "eecdbea7-341c-4a5a-a4f6-8454724051e5",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,73.106890496,0.0,0.0,1.0]",
+                                  "MeshPath": "CC01BE07C2E6EF6F16E19E7026EE382DDD2CBB3F.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "db671d74-6f11-499f-9bcc-6eebbdb281c2",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,79.81249472,0.0,0.0,1.0]",
+                                  "MeshPath": "8D2F04427F1CB7D302767790492CB8427100CE11.stl",
+                                  "Name": ""
+                                },
+                                {
+                                  "ID": "0b5fa873-f1c4-4b8e-824a-96b96bceab3a",
+                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,85.761742912,0.0,0.0,1.0]",
+                                  "MeshPath": "064BD43A9AC5DB12D47958AB6BE7DDED222013DF.stl",
+                                  "Name": ""
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "ID": "507e07fa-a219-43fc-bb69-304fc0a8cea4",
+                          "Color": "#FF000064",
+                          "Matrix": "[95.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,5.0,0.0,162.22027811601993,66.529597416520119,2.5,1.0]",
+                          "MeshPath": "0C7160BCF12B11C8717BA6ADC9A7FFFF219DC9AE.stl",
+                          "Name": "",
+                          "Visible": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

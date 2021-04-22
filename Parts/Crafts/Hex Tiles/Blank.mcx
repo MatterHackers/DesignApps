@@ -1,0 +1,58 @@
+{
+  "ID": "718993d5-9dee-4dcb-8481-6436a62cee8f",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "9ba71454-4138-44e9-b2fe-cd7bf862a5ba",
+      "Advanced": true,
+      "Matrix": "[0.86602549120720551,-0.49999984857929552,0.0,0.0,0.49999984857929552,0.86602549120720551,0.0,0.0,0.0,0.0,1.0,0.0,60.035558075322953,-22.015361464001629,0.0,1.0]",
+      "Name": "Align (1)",
+      "SelectedChild": [],
+      "StartingMin": {},
+      "TypeName": "AlignObject3D",
+      "XAlign": "Center",
+      "XAlignTo": "None",
+      "XOffset": 0.0,
+      "YAlign": "Center",
+      "YAlignTo": "None",
+      "YOffset": 0.0,
+      "ZAlign": "Min",
+      "ZAlignTo": "None",
+      "ZOffset": 2.0,
+      "Children": [
+        {
+          "ID": "e561342f-f883-4c7b-9f2f-53313bb3a10b",
+          "Advanced": false,
+          "Color": "#B0FE86",
+          "Diameter": 150.0,
+          "DiameterTop": 20.0,
+          "EndingAngle": 360.0,
+          "Height": 2.0,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-63.0,-10.951904296875,1.0,1.0]",
+          "MeshPath": "F19842F7E3BC069D29E9F41F85D5E1DA80AF5118.stl",
+          "Name": "Cylinder",
+          "Sides": 6,
+          "StartingAngle": 0.0,
+          "ThumbnailName": "Cylinder",
+          "TypeName": "CylinderObject3D"
+        },
+        {
+          "ID": "d84a5218-20d5-48d3-ac9a-0b9e2a64505e",
+          "Advanced": false,
+          "Color": "#8A86FE",
+          "EndingAngle": 360.0,
+          "Height": 2.0,
+          "InnerDiameter": 130.0,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-63.0,-10.951908111572266,3.0,1.0]",
+          "MeshPath": "7AE66B20F7478F5B1B14595FCDAF336428772BA6.stl",
+          "Name": "Ring",
+          "OuterDiameter": 150.0,
+          "Sides": 6,
+          "StartingAngle": 0.0,
+          "ThumbnailName": "Ring",
+          "TypeName": "RingObject3D"
+        }
+      ]
+    }
+  ]
+}

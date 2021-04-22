@@ -1,0 +1,132 @@
+{
+  "ID": "7a6670c1-992a-4183-8a26-84de90a08692",
+  "Name": "",
+  "Children": [
+    {
+      "ID": "5dba1cf6-dfed-4e4b-a89a-95620df0c0df",
+      "ComponentID": "",
+      "Finalized": true,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.60606060592377264,0.0,17.006999969482422,38.286999702453613,0.0,1.0]",
+      "Name": "Dog Tag",
+      "ProOnly": false,
+      "SurfacedEditors": [
+        "$.Children<AlignObject3D>.Children<FitToBoundsObject3D_2>.Children<Object3D>.Children<TextObject3D>.NameToWrite",
+        "$.Children<AlignObject3D>.Children<FitToBoundsObject3D_2>.Children<Object3D>.Children<TextObject3D>.Font"
+      ],
+      "TypeName": "ComponentObject3D",
+      "Children": [
+        {
+          "ID": "b4634fec-6eb6-4717-a874-7131ae521c9d",
+          "Advanced": false,
+          "Color": "#FFFFFF",
+          "EndingAngle": 360.0,
+          "Height": 5.0,
+          "InnerDiameter": 6.0,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-17.006999969482422,-27.5,2.5,1.0]",
+          "MeshPath": "B4D15239A6FA596B769A2E67C2FD63082F305760.stl",
+          "Name": "Ring",
+          "OuterDiameter": 12.0,
+          "OutputType": 1,
+          "Sides": 40,
+          "StartingAngle": 0.0,
+          "ThumbnailName": "Ring",
+          "TypeName": "RingObject3D"
+        },
+        {
+          "ID": "206711cd-977e-4dbc-82d2-7ad2b8cbfba7",
+          "Advanced": true,
+          "Name": "Align",
+          "SelectedChild": [],
+          "StartingMin": {},
+          "TypeName": "AlignObject3D",
+          "XAlign": "Center",
+          "XAlignTo": "None",
+          "XOffset": 0.0,
+          "YAlign": "Center",
+          "YAlignTo": "None",
+          "YOffset": 0.0,
+          "ZAlign": "Max",
+          "ZAlignTo": "None",
+          "ZOffset": 1.5,
+          "Children": [
+            {
+              "ID": "350379d4-2cb1-4eb1-bdc7-2b93d892bc1c",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-17.0,-39.0,0.10000000149011612,1.0]",
+              "MeshPath": "10037B70B6539FC1FDFCE225146B01338224A83D.stl",
+              "Name": "Linear Extrude"
+            },
+            {
+              "ID": "70044d89-7443-4e87-992e-d524375bfdec",
+              "MaintainRatio": 1,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-0.684430164904148,-1.4355975538492132,-0.39999999850988388,1.0]",
+              "Name": "Fit to Bounds",
+              "SizeX": 40.0,
+              "SizeY": 10.0,
+              "SizeZ": 5.0,
+              "StretchX": true,
+              "StretchY": true,
+              "StretchZ": true,
+              "TypeName": "FitToBoundsObject3D_2",
+              "Children": [
+                {
+                  "ID": "6633fe4f-2fca-40bb-836a-ef1784843f3f",
+                  "Matrix": "[1.1184674996558959,0.0,0.0,0.0,0.0,1.1184674996558959,0.0,0.0,0.0,0.0,1.0,0.0,1.9336940327072121,4.4390249051646791,0.0,1.0]",
+                  "Name": "",
+                  "Children": [
+                    {
+                      "ID": "c42772a0-c3cd-496b-93e6-a08ed600f46e",
+                      "Color": "#66CCFF",
+                      "Font": "Alfa_Slab",
+                      "Height": 5.0,
+                      "MaterialIndex": 1,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-29.158044546842575,-41.782760620117188,2.0,1.0]",
+                      "Name": "Text",
+                      "NameToWrite": "Fido",
+                      "OutputType": 1,
+                      "PointSize": 24.0,
+                      "ThumbnailName": "Text",
+                      "TypeName": "TextObject3D",
+                      "Children": [
+                        {
+                          "ID": "f07b8b1c-5573-44b4-a6c3-fde01a075fcc",
+                          "MeshPath": "29DBD4CE9C91AF72317F110042B3C5D6A5DE1B06.stl",
+                          "Name": ""
+                        },
+                        {
+                          "ID": "a9175a8d-2484-4b76-8456-858be81ec59c",
+                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,7.1345822719999994,0.0,0.0,1.0]",
+                          "MeshPath": "31BA772B65373330E5B23904367BC419BF97D522.stl",
+                          "Name": ""
+                        },
+                        {
+                          "ID": "1f27c28c-e4a3-4d63-b02a-c47e5b6e397f",
+                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,11.040540287999999,0.0,0.0,1.0]",
+                          "MeshPath": "142C25582E1699C640A7C46B22B0ED491D51D6E6.stl",
+                          "Name": ""
+                        },
+                        {
+                          "ID": "52486688-aa88-445e-8344-3f99ad4a6196",
+                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,18.468633855999997,0.0,0.0,1.0]",
+                          "MeshPath": "F6C361C309B8FE497A213D1339009FFB231907E3.stl",
+                          "Name": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ID": "dd70235b-990a-41d3-a0fe-f2e490dda905",
+                  "Color": "#FF000064",
+                  "Matrix": "[40.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,5.0,0.0,-16.322569804578276,-37.470402583479888,4.5,1.0]",
+                  "MeshPath": "0C7160BCF12B11C8717BA6ADC9A7FFFF219DC9AE.stl",
+                  "Name": "",
+                  "Visible": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
