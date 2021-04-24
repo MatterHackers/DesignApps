@@ -1,19 +1,20 @@
 {
-  "ID": "85d5d150-b76d-485e-be70-9c4e51c67e00",
-  "Name": "Workspace 2021-04-21 09_43_39.mcx",
+  "ID": "f1eb7d1e-84d5-4318-9fe7-f8e4fed06144",
+  "Name": "Workspace 2021-04-18 08_22_57.mcx",
   "Children": [
     {
-      "ID": "f8a2d30f-29ab-4bee-bd59-5307ef0f7762",
-      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-10.250002194301292,4.9945017975595007,2.6645352591003757E-15,1.0]",
+      "ID": "8e89422c-2a88-46b9-8450-cd4efa3e7d85",
+      "Expanded": true,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-11.057229498616589,0.98442929993393946,0.0,1.0]",
       "Name": "Group",
       "TypeName": "GroupObject3D",
       "Children": [
         {
-          "ID": "0c4a8852-d3b2-435e-8f72-1fffeefa3c32",
+          "ID": "42ef2dd1-1b83-477f-8b55-89e8f75f1bf1",
           "ComponentID": "",
           "Expanded": true,
           "Finalized": true,
-          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,11.050000008731786,-7.1054273576010019E-15,0.0,1.0]",
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,11.050000008731789,0.7562675023292833,5.3290705182007514E-15,1.0]",
           "Name": "Bottle Opener",
           "ProOnly": false,
           "SurfacedEditors": [
@@ -23,24 +24,24 @@
           "TypeName": "ComponentObject3D",
           "Children": [
             {
-              "ID": "f28bbecd-d931-455c-a291-b2df96d4a8db",
+              "ID": "bc2d12fd-313b-4695-a1ad-52eaf8445bd7",
               "Advanced": true,
               "Expanded": true,
               "Matrix": "[-0.99999999999999623,-8.7422780114751084E-08,0.0,0.0,8.7422780114751084E-08,-0.99999999999999623,0.0,0.0,0.0,0.0,0.99999999999999556,0.0,26.254363961196475,8.0947492108907682,0.0,1.0]",
               "Name": "Align",
               "SelectedChild": [
-                "497f30f6-22d7-422a-9f9c-b0571536d830"
+                "7e18e091-a43c-4fd2-be8f-ccb7517c37e1"
               ],
               "StartingMin": {
-                "26f5aa63-eb48-49e7-b625-5ee08ad14c34": {
-                  "X": 6.254364013671875,
-                  "Y": -29.399753570556641,
-                  "Z": 0.0
-                },
-                "8bfad99f-3d08-4b7d-9c41-5b80603dda73": {
+                "e6205d70-8d5a-4d06-b693-b0b137684964": {
                   "X": 13.754364013671863,
                   "Y": 15.589248657226561,
                   "Z": 5.6000019073486325
+                },
+                "25ad0fa8-aaef-4abf-a414-8bb4691454cf": {
+                  "X": 6.254364013671875,
+                  "Y": -29.399753570556641,
+                  "Z": 0.0
                 }
               },
               "TypeName": "AlignObject3D",
@@ -55,432 +56,9 @@
               "ZOffset": 0.6,
               "Children": [
                 {
-                  "ID": "497f30f6-22d7-422a-9f9c-b0571536d830",
-                  "Color": "#00FF00",
-                  "Expanded": true,
-                  "Name": "Subtract",
-                  "OutputType": 1,
-                  "SelectedChildren": [
-                    "Align"
-                  ],
-                  "TypeName": "SubtractObject3D_2",
-                  "Children": [
-                    {
-                      "ID": "1aaaeaeb-2cb9-4831-a98b-7c02af4454d8",
-                      "Name": "Source",
-                      "TypeName": "OperationSourceObject3D",
-                      "Visible": false,
-                      "Children": [
-                        {
-                          "ID": "55ef6c9d-5bfd-4591-82a5-58ea4efc9ef2",
-                          "Advanced": true,
-                          "Expanded": true,
-                          "Name": "Align",
-                          "SelectedChild": [
-                            "Subtract"
-                          ],
-                          "StartingMin": {},
-                          "TypeName": "AlignObject3D",
-                          "XAlign": "Center",
-                          "XAlignTo": "None",
-                          "XOffset": 0.0,
-                          "YAlign": "Center",
-                          "YAlignTo": "None",
-                          "YOffset": -10.0,
-                          "ZAlign": "Center",
-                          "ZAlignTo": "None",
-                          "ZOffset": 0.0,
-                          "Children": [
-                            {
-                              "ID": "0139882e-6b0a-4f13-84bf-edae735a0aca",
-                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,33.79743208038974,7.0168791333341076,0.0,1.0]",
-                              "Name": "Subtract",
-                              "SelectedChildren": [
-                                "Rotate"
-                              ],
-                              "TypeName": "SubtractObject3D_2",
-                              "Children": [
-                                {
-                                  "ID": "9a66902f-0ce0-40bc-866a-de0bb6cdc901",
-                                  "Name": "Source",
-                                  "TypeName": "OperationSourceObject3D",
-                                  "Visible": false,
-                                  "Children": [
-                                    {
-                                      "ID": "ca4b6231-81cd-42bc-b3dd-857c4603dde5",
-                                      "Advanced": true,
-                                      "Name": "Align",
-                                      "SelectedChild": [
-                                        "Subtract"
-                                      ],
-                                      "StartingMin": {},
-                                      "TypeName": "AlignObject3D",
-                                      "XAlign": "Center",
-                                      "XAlignTo": "None",
-                                      "XOffset": 0.0,
-                                      "YAlign": "Min",
-                                      "YAlignTo": "None",
-                                      "YOffset": 8.0,
-                                      "ZAlign": "Min",
-                                      "ZAlignTo": "None",
-                                      "ZOffset": 0.0,
-                                      "Children": [
-                                        {
-                                          "ID": "bd5cd948-2e45-41b5-b968-746764d6d347",
-                                          "Name": "Subtract",
-                                          "SelectedChildren": [
-                                            "Cube (1)"
-                                          ],
-                                          "TypeName": "SubtractObject3D_2",
-                                          "Children": [
-                                            {
-                                              "ID": "70c89c7f-08f5-4b19-9249-67cb81a85d59",
-                                              "Name": "Source",
-                                              "TypeName": "OperationSourceObject3D",
-                                              "Visible": false,
-                                              "Children": [
-                                                {
-                                                  "ID": "9c1bfe59-a97a-4abd-875d-e4ccc9703b04",
-                                                  "Advanced": true,
-                                                  "Name": "Align",
-                                                  "SelectedChild": [
-                                                    "Align"
-                                                  ],
-                                                  "StartingMin": {},
-                                                  "TypeName": "AlignObject3D",
-                                                  "XAlign": "Center",
-                                                  "XAlignTo": "None",
-                                                  "XOffset": 0.0,
-                                                  "YAlign": "Max",
-                                                  "YAlignTo": "Min",
-                                                  "YOffset": 15.0,
-                                                  "ZAlign": "Min",
-                                                  "ZAlignTo": "None",
-                                                  "ZOffset": 0.0,
-                                                  "Children": [
-                                                    {
-                                                      "ID": "dae8f743-1535-4a1b-bb07-af0f929850b4",
-                                                      "Advanced": true,
-                                                      "Name": "Align",
-                                                      "SelectedChild": [
-                                                        "Align"
-                                                      ],
-                                                      "StartingMin": {},
-                                                      "TypeName": "AlignObject3D",
-                                                      "XAlign": "Center",
-                                                      "XAlignTo": "None",
-                                                      "XOffset": 0.0,
-                                                      "YAlign": "Max",
-                                                      "YAlignTo": "Min",
-                                                      "YOffset": 0.0,
-                                                      "ZAlign": "Min",
-                                                      "ZAlignTo": "None",
-                                                      "ZOffset": 0.0,
-                                                      "Children": [
-                                                        {
-                                                          "ID": "31fd87c0-97da-4367-95fb-faff76d40e6b",
-                                                          "Advanced": true,
-                                                          "Name": "Align",
-                                                          "SelectedChild": [
-                                                            "Cube"
-                                                          ],
-                                                          "StartingMin": {},
-                                                          "TypeName": "AlignObject3D",
-                                                          "XAlign": "Center",
-                                                          "XAlignTo": "None",
-                                                          "XOffset": 0.0,
-                                                          "YAlign": "Min",
-                                                          "YAlignTo": "Max",
-                                                          "YOffset": 0.0,
-                                                          "ZAlign": "Min",
-                                                          "ZAlignTo": "None",
-                                                          "ZOffset": 0.0,
-                                                          "Children": [
-                                                            {
-                                                              "ID": "d1b28008-2bf8-4de0-92e4-ac522dff8ab2",
-                                                              "Color": "#FE8D86",
-                                                              "Depth": 50.0,
-                                                              "Height": 7.0,
-                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.5430678136334564,-6.4166325365195576,3.5,1.0]",
-                                                              "MeshPath": "AA5F821F5063BD6128A914D0FC9AD256CE736E1F.stl",
-                                                              "Name": "Cube",
-                                                              "ThumbnailName": "Cube",
-                                                              "TypeName": "CubeObject3D",
-                                                              "Width": 40.0
-                                                            },
-                                                            {
-                                                              "ID": "f5c71ea2-87ad-4e12-9dbd-5ebcbdbb40db",
-                                                              "AngleDegrees": 90.0,
-                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,34.7286747038775,6.8763265667713451,-1.4825000365706842,1.0]",
-                                                              "Name": "Rotate",
-                                                              "RotateAbout": {
-                                                                "Normal": {
-                                                                  "X": 1.0,
-                                                                  "Y": 0.0,
-                                                                  "Z": 0.0
-                                                                },
-                                                                "Origin": {
-                                                                  "X": -42.271742517510951,
-                                                                  "Y": 16.689541410116938,
-                                                                  "Z": 4.9825005134078424
-                                                                }
-                                                              },
-                                                              "TypeName": "RotateObject3D_2",
-                                                              "Children": [
-                                                                {
-                                                                  "ID": "bfd46738-0d85-419d-b9fa-7c25adba7786",
-                                                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,6.1230317691118863E-17,-1.0,0.0,0.0,1.0,6.1230317691118863E-17,0.0,0.0,11.707040896709096,21.67204192352478,1.0]",
-                                                                  "Name": "",
-                                                                  "Children": [
-                                                                    {
-                                                                      "ID": "0471a844-365c-4af4-bfae-6168a14ae40c",
-                                                                      "Color": "#86FEEB",
-                                                                      "Depth": 7.0,
-                                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-42.272242242852755,20.189541886954096,3.0597973932344757E-07,1.0]",
-                                                                      "MeshPath": "8C628CC8D980BEC780B395D44CFCBC0D7E7D7297.stl",
-                                                                      "Name": "Half Cylinder",
-                                                                      "Sides": 50,
-                                                                      "ThumbnailName": "Half Cylinder",
-                                                                      "TypeName": "HalfCylinderObject3D",
-                                                                      "Width": 40.0
-                                                                    }
-                                                                  ]
-                                                                }
-                                                              ]
-                                                            }
-                                                          ]
-                                                        },
-                                                        {
-                                                          "ID": "4309403b-ec07-4e42-a79d-8cf63b6756c4",
-                                                          "Color": "#FEE686",
-                                                          "Depth": 7.0,
-                                                          "Height": 20.0,
-                                                          "Matrix": "[0.99999999999999933,0.0,0.0,0.0,0.0,-4.3711390099008886E-08,0.99999999999999789,0.0,0.0,-0.99999999999999789,-4.3711390099008886E-08,0.0,-27.543067813633442,-31.416633148479029,7.0000018279021035,1.0]",
-                                                          "MeshPath": "D600CCE5EC7203941500E2990B25018710D47597.stl",
-                                                          "Name": "Half Wedge",
-                                                          "ThumbnailName": "Half Wedge",
-                                                          "TypeName": "HalfWedgeObject3D",
-                                                          "Width": 40.0
-                                                        }
-                                                      ]
-                                                    },
-                                                    {
-                                                      "ID": "eb46a4ce-7b53-4f8d-89a7-f0b2bd0fdf56",
-                                                      "Color": "#FE8D86",
-                                                      "Depth": 25.0,
-                                                      "Height": 15.0,
-                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.5430678136334564,-48.916633148478951,7.5,1.0]",
-                                                      "MeshPath": "3EA8285D4EA3D403D014BC83A3F11F9D2F053BFD.stl",
-                                                      "Name": "Cube (1)",
-                                                      "ThumbnailName": "Cube",
-                                                      "TypeName": "CubeObject3D",
-                                                      "Width": 35.0
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "ID": "4cf599bc-9f64-4703-b979-4941d1a4db60",
-                                              "Color": "#FEE686",
-                                              "MeshPath": "36DD88C8BF3F5CEFC830C87696B106ABC336C4EC.stl",
-                                              "Name": "Half Wedge"
-                                            },
-                                            {
-                                              "ID": "ab779e14-2e11-40a2-81c1-2d17c01b0c08",
-                                              "Color": "#86FEEB",
-                                              "MeshPath": "E0AFEC5AD402BD85A1D0C78705F8D1214CB5A498.stl",
-                                              "Name": "Half Cylinder"
-                                            },
-                                            {
-                                              "ID": "e6320e3f-323d-4b9f-8be6-54b412034f12",
-                                              "Color": "#FE8D86",
-                                              "MeshPath": "3E5BFAD3E3FB58E3CC4BDDF6C820B4A1F4E312A4.stl",
-                                              "Name": "Cube"
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "ID": "87d6ad96-c632-4c67-9256-8a5ad0a94037",
-                                          "AngleDegrees": 180.0,
-                                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,-26.992000579833984,0.0,1.0]",
-                                          "Name": "Rotate",
-                                          "RotateAbout": {
-                                            "Normal": {
-                                              "X": 0.0,
-                                              "Y": 0.0,
-                                              "Z": 1.0
-                                            },
-                                            "Origin": {
-                                              "X": -7.5430679321289063,
-                                              "Y": 9.8253669738769531,
-                                              "Z": 5.5
-                                            }
-                                          },
-                                          "TypeName": "RotateObject3D_2",
-                                          "Children": [
-                                            {
-                                              "ID": "fab1bb2d-2ba9-45f0-b158-7ced37003f78",
-                                              "Matrix": "[-1.0,-1.2246063538223773E-16,0.0,0.0,1.2246063538223773E-16,-1.0,0.0,0.0,0.0,0.0,1.0,0.0,-15.086135864257813,19.650733947753906,0.0,1.0]",
-                                              "Name": "",
-                                              "Children": [
-                                                {
-                                                  "ID": "88c45bef-2b93-471e-b8ac-c00785da8ec4",
-                                                  "Advanced": true,
-                                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,36.294568224107671,12.469478243378635,0.0,1.0]",
-                                                  "Name": "Align (1)",
-                                                  "SelectedChild": [
-                                                    "Cube (2)"
-                                                  ],
-                                                  "StartingMin": {},
-                                                  "TypeName": "AlignObject3D",
-                                                  "XAlign": "Center",
-                                                  "XAlignTo": "None",
-                                                  "XOffset": 0.0,
-                                                  "YAlign": "Max",
-                                                  "YAlignTo": "Min",
-                                                  "YOffset": 0.0,
-                                                  "ZAlign": "Min",
-                                                  "ZAlignTo": "None",
-                                                  "ZOffset": 0.0,
-                                                  "Children": [
-                                                    {
-                                                      "ID": "79d4e6d3-b5c2-44eb-a6e4-6020969f3225",
-                                                      "Color": "#FE8D86",
-                                                      "Depth": 10.0,
-                                                      "Height": 11.0,
-                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,3.605888730498318,5.5,1.0]",
-                                                      "MeshPath": "2DFF06F9EF38255FB282FBDAB5C6044385337E2B.stl",
-                                                      "Name": "Cube (2)",
-                                                      "ThumbnailName": "Cube",
-                                                      "TypeName": "CubeObject3D",
-                                                      "Width": 31.0
-                                                    },
-                                                    {
-                                                      "ID": "fa370b35-db77-4736-9373-2c0f0771f2d6",
-                                                      "Advanced": true,
-                                                      "Color": "#B0FE86",
-                                                      "Diameter": 31.0,
-                                                      "DiameterTop": 31.0,
-                                                      "EndingAngle": 360.0,
-                                                      "Height": 11.0,
-                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,-1.3941115099143282,5.5,1.0]",
-                                                      "MeshPath": "82B3384C453D86146DF8D7ABDD7D697DF2D99021.stl",
-                                                      "Name": "Cylinder",
-                                                      "Sides": 100,
-                                                      "StartingAngle": 180.0,
-                                                      "ThumbnailName": "Cylinder",
-                                                      "TypeName": "CylinderObject3D"
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "ID": "99e5b5e1-709f-463c-ae77-8a90869d4f57",
-                                  "Color": "#FE8D86",
-                                  "MeshPath": "CE91BD24521DD18D18B1B732E000DC22DE3CFAC2.stl",
-                                  "Name": "Cube"
-                                },
-                                {
-                                  "ID": "12b9d4a2-3765-4f3e-9d94-043847431f63",
-                                  "Color": "#86FEEB",
-                                  "MeshPath": "E0AFEC5AD402BD85A1D0C78705F8D1214CB5A498.stl",
-                                  "Name": "Half Cylinder"
-                                },
-                                {
-                                  "ID": "376c0e48-d492-42a8-8aee-7b4c6615260c",
-                                  "Color": "#FEE686",
-                                  "MeshPath": "36DD88C8BF3F5CEFC830C87696B106ABC336C4EC.stl",
-                                  "Name": "Half Wedge"
-                                }
-                              ]
-                            },
-                            {
-                              "ID": "1bfcdbff-33b3-4d55-8387-9b86575d8d39",
-                              "Advanced": true,
-                              "Matrix": "[-0.99999999999999623,-8.7422779948217644E-08,0.0,0.0,8.7422779948217644E-08,-0.99999999999999623,0.0,0.0,0.0,0.0,0.999999999999998,0.0,-17.583272323212395,-3.074368138564612,2.7500009536743182,1.0]",
-                              "Name": "Align",
-                              "SelectedChild": [
-                                "Cube (2)"
-                              ],
-                              "StartingMin": {},
-                              "TypeName": "AlignObject3D",
-                              "XAlign": "Center",
-                              "XAlignTo": "None",
-                              "XOffset": 0.0,
-                              "YAlign": "Center",
-                              "YAlignTo": "Min",
-                              "YOffset": 0.0,
-                              "ZAlign": "Min",
-                              "ZAlignTo": "None",
-                              "ZOffset": 0.0,
-                              "Children": [
-                                {
-                                  "ID": "58b5f8a3-2b28-4e42-9d54-8ab51f69244b",
-                                  "Color": "#FE8D86",
-                                  "Depth": 20.0,
-                                  "Height": 1.5,
-                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,3.605888730498318,0.75,1.0]",
-                                  "MeshPath": "8C650942EEF293CAB26028BB12E6C0CFB574A577.stl",
-                                  "Name": "Cube (2)",
-                                  "ThumbnailName": "Cube",
-                                  "TypeName": "CubeObject3D",
-                                  "Width": 19.1
-                                },
-                                {
-                                  "ID": "e29ae0eb-894d-4700-917b-daf104f4a1dc",
-                                  "Advanced": false,
-                                  "Color": "#B0FE86",
-                                  "Diameter": 19.1,
-                                  "DiameterTop": 20.0,
-                                  "EndingAngle": 360.0,
-                                  "Height": 1.5,
-                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,-6.394111269501682,0.75,1.0]",
-                                  "MeshPath": "3E81EE675BF5F11BFBDE41AF9C1A67F86664F645.stl",
-                                  "Name": "Cylinder",
-                                  "Sides": 100,
-                                  "StartingAngle": 0.0,
-                                  "ThumbnailName": "Cylinder",
-                                  "TypeName": "CylinderObject3D"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "ID": "6171f22a-c146-47db-b4cf-045f323cfc55",
-                      "Color": "#FEE686",
-                      "MeshPath": "781BE2789AF0C3CDEFBA9892D3EC9529194A71D2.stl",
-                      "Name": "Half Wedge"
-                    },
-                    {
-                      "ID": "d4d348e1-baf1-4564-bd91-103a62e4164c",
-                      "Color": "#86FEEB",
-                      "MeshPath": "A392F152F14129B7568AAAB85B02E7141B88461B.stl",
-                      "Name": "Half Cylinder"
-                    },
-                    {
-                      "ID": "c9888040-a566-4ea9-bb07-7e27f4a03559",
-                      "Color": "#FE8D86",
-                      "MeshPath": "C8E6072A5E0376CEA84BDDFAC52E811938C11286.stl",
-                      "Name": "Cube"
-                    }
-                  ]
-                },
-                {
-                  "ID": "29f2b410-3e50-4fd5-bba4-e3c579e5132a",
+                  "ID": "49753543-b68a-4604-99fa-a23c73d2e091",
                   "AngleDegrees": 180.0,
-                  "Expanded": true,
-                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.1054273576010019E-15,2.4980010986328196,3.1999999999999997,1.0]",
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-3.5527136788005009E-15,2.4980010986328196,3.2,1.0]",
                   "Name": "Rotate",
                   "RotateAbout": {
                     "Normal": {
@@ -497,13 +75,12 @@
                   "TypeName": "RotateObject3D_2",
                   "Children": [
                     {
-                      "ID": "975b3d4c-3e5c-4e89-9aca-6bc5782a95b2",
+                      "ID": "e546fc0b-7192-4684-bf72-8cc07cccfd5a",
                       "Matrix": "[-1.0,-1.2246063538223773E-16,0.0,0.0,1.2246063538223773E-16,-1.0,0.0,0.0,0.0,0.0,1.0,0.0,52.50872802734375,51.1824951171875,0.0,1.0]",
                       "Name": "",
                       "Children": [
                         {
-                          "ID": "f4b7085e-b1ce-4e03-8f9c-f620eca8c5ff",
-                          "Expanded": true,
+                          "ID": "5dc7e9de-494f-4653-bdd5-b2ebd46a04ad",
                           "MaintainRatio": 1,
                           "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,26.254364013671875,25.591247558593754,3.4000019073486332,1.0]",
                           "Name": "Fit to Bounds",
@@ -516,12 +93,12 @@
                           "TypeName": "FitToBoundsObject3D_2",
                           "Children": [
                             {
-                              "ID": "79209804-f20b-4a55-9e05-40218a4a7330",
+                              "ID": "c4b116ed-16aa-420c-b278-f263b189d491",
                               "Matrix": "[0.427372345776025,0.0,0.0,0.0,0.0,0.427372345776025,0.0,0.0,0.0,0.0,0.4,0.0,0.0,0.0,0.0,1.0]",
                               "Name": "",
                               "Children": [
                                 {
-                                  "ID": "34b761ae-8a33-46de-8773-e31ac5ab2573",
+                                  "ID": "7bf7ea27-b759-46b0-9a9a-3357cab8a2b7",
                                   "BevelInset": 2.0,
                                   "BevelStart": 4.0,
                                   "BevelSteps": 1,
@@ -534,7 +111,7 @@
                                   "TypeName": "LinearExtrudeObject3D",
                                   "Children": [
                                     {
-                                      "ID": "89519fd9-19ea-4739-bc8b-952b95de56e7",
+                                      "ID": "ad1a4653-7a38-4349-9fb0-dea2acd70c18",
                                       "Expanded": true,
                                       "Iterations": 3,
                                       "MeshPath": "1A661E9D6F795373C92E604BEE61E8B133D93C35.stl",
@@ -546,7 +123,7 @@
                                       },
                                       "Children": [
                                         {
-                                          "ID": "045866e2-33eb-4baf-9a39-c1e1acf8df7c",
+                                          "ID": "6daef3fc-48df-4b63-8645-07e0a6a632ab",
                                           "Expanded": true,
                                           "FeatureDetector": 0,
                                           "Name": "Image to Path",
@@ -558,7 +135,7 @@
                                           },
                                           "Children": [
                                             {
-                                              "ID": "70d321c3-8ad2-44d9-b23c-049f4c886ba1",
+                                              "ID": "7d94e5c1-d689-46b0-9816-ccec53d1573c",
                                               "AssetID": "07227DB49EE5D2D521B13D4FA50BD3164ACE1501",
                                               "AssetPath": "07227DB49EE5D2D521B13D4FA50BD3164ACE1501.png",
                                               "Invert": false,
@@ -576,7 +153,7 @@
                               ]
                             },
                             {
-                              "ID": "f42208df-4543-4ddf-9cec-28f212f786df",
+                              "ID": "3468a116-6945-4221-a186-433d1673aea0",
                               "Color": "#FF000064",
                               "Matrix": "[25.0,0.0,0.0,0.0,0.0,25.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,-1.647344209089896E-15,0.0,1.0]",
                               "MeshPath": "CF58E6637ED36311082F66EC5FA3A279E0513FE6.stl",
@@ -588,20 +165,470 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "ID": "7e18e091-a43c-4fd2-be8f-ccb7517c37e1",
+                  "Color": "#00FF07",
+                  "Name": "Combine",
+                  "OutputType": 1,
+                  "TypeName": "CombineObject3D_2",
+                  "Children": [
+                    {
+                      "ID": "287bac1f-738c-4ef2-b73b-22236b890ff6",
+                      "Name": "Source",
+                      "TypeName": "OperationSourceObject3D",
+                      "Visible": false,
+                      "Children": [
+                        {
+                          "ID": "4689ab39-bd7d-4f47-94b9-a3227846c550",
+                          "Color": "#00FF00",
+                          "Name": "Subtract",
+                          "OutputType": 1,
+                          "SelectedChildren": [
+                            "Align"
+                          ],
+                          "TypeName": "SubtractObject3D_2",
+                          "Children": [
+                            {
+                              "ID": "f3895c0e-16b6-4285-a0e3-72fa848b6f48",
+                              "Name": "Source",
+                              "TypeName": "OperationSourceObject3D",
+                              "Visible": false,
+                              "Children": [
+                                {
+                                  "ID": "4f7cf7ab-15f8-4c9a-b823-f322b4728140",
+                                  "Advanced": true,
+                                  "Name": "Align",
+                                  "SelectedChild": [
+                                    "Subtract"
+                                  ],
+                                  "StartingMin": {},
+                                  "TypeName": "AlignObject3D",
+                                  "XAlign": "Center",
+                                  "XAlignTo": "None",
+                                  "XOffset": 0.0,
+                                  "YAlign": "Center",
+                                  "YAlignTo": "None",
+                                  "YOffset": -10.0,
+                                  "ZAlign": "Center",
+                                  "ZAlignTo": "None",
+                                  "ZOffset": 0.0,
+                                  "Children": [
+                                    {
+                                      "ID": "36e3ea4b-4c51-46dd-8d1a-24925f26f1e5",
+                                      "Expanded": true,
+                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,33.79743208038974,7.0168791333341076,0.0,1.0]",
+                                      "Name": "Subtract",
+                                      "SelectedChildren": [
+                                        "Rotate"
+                                      ],
+                                      "TypeName": "SubtractObject3D_2",
+                                      "Children": [
+                                        {
+                                          "ID": "ada52640-bb01-49e4-bb36-d15e5666b30c",
+                                          "Name": "Source",
+                                          "TypeName": "OperationSourceObject3D",
+                                          "Visible": false,
+                                          "Children": [
+                                            {
+                                              "ID": "eb7be876-5f49-4f1f-b5eb-01daef974fc9",
+                                              "Advanced": true,
+                                              "Expanded": true,
+                                              "Name": "Align",
+                                              "SelectedChild": [
+                                                "Subtract"
+                                              ],
+                                              "StartingMin": {},
+                                              "TypeName": "AlignObject3D",
+                                              "XAlign": "Center",
+                                              "XAlignTo": "None",
+                                              "XOffset": 0.0,
+                                              "YAlign": "Min",
+                                              "YAlignTo": "None",
+                                              "YOffset": 8.0,
+                                              "ZAlign": "Min",
+                                              "ZAlignTo": "None",
+                                              "ZOffset": 0.0,
+                                              "Children": [
+                                                {
+                                                  "ID": "318c71fe-aac8-4a3f-af5a-315c88159938",
+                                                  "Expanded": true,
+                                                  "Name": "Subtract",
+                                                  "SelectedChildren": [
+                                                    "Cube (1)"
+                                                  ],
+                                                  "TypeName": "SubtractObject3D_2",
+                                                  "Children": [
+                                                    {
+                                                      "ID": "e60a3e2e-22e7-4d61-be69-332eef2ba8b8",
+                                                      "Name": "Source",
+                                                      "TypeName": "OperationSourceObject3D",
+                                                      "Visible": false,
+                                                      "Children": [
+                                                        {
+                                                          "ID": "bfcac2d9-b7fe-45de-8800-f07ce40e0312",
+                                                          "Advanced": true,
+                                                          "Expanded": true,
+                                                          "Name": "Align",
+                                                          "SelectedChild": [
+                                                            "Align"
+                                                          ],
+                                                          "StartingMin": {},
+                                                          "TypeName": "AlignObject3D",
+                                                          "XAlign": "Center",
+                                                          "XAlignTo": "None",
+                                                          "XOffset": 0.0,
+                                                          "YAlign": "Max",
+                                                          "YAlignTo": "Min",
+                                                          "YOffset": 15.0,
+                                                          "ZAlign": "Min",
+                                                          "ZAlignTo": "None",
+                                                          "ZOffset": 0.0,
+                                                          "Children": [
+                                                            {
+                                                              "ID": "5e8872bb-ea8f-4522-b0eb-bc5baf5acbca",
+                                                              "Advanced": true,
+                                                              "Expanded": true,
+                                                              "Name": "Align",
+                                                              "SelectedChild": [
+                                                                "Align"
+                                                              ],
+                                                              "StartingMin": {},
+                                                              "TypeName": "AlignObject3D",
+                                                              "XAlign": "Center",
+                                                              "XAlignTo": "None",
+                                                              "XOffset": 0.0,
+                                                              "YAlign": "Max",
+                                                              "YAlignTo": "Min",
+                                                              "YOffset": 0.0,
+                                                              "ZAlign": "Min",
+                                                              "ZAlignTo": "None",
+                                                              "ZOffset": 0.0,
+                                                              "Children": [
+                                                                {
+                                                                  "ID": "fb58d451-8bd6-484a-b5e6-308554fe4ea1",
+                                                                  "Advanced": true,
+                                                                  "Expanded": true,
+                                                                  "Name": "Align",
+                                                                  "SelectedChild": [
+                                                                    "Cube"
+                                                                  ],
+                                                                  "StartingMin": {},
+                                                                  "TypeName": "AlignObject3D",
+                                                                  "XAlign": "Center",
+                                                                  "XAlignTo": "None",
+                                                                  "XOffset": 0.0,
+                                                                  "YAlign": "Min",
+                                                                  "YAlignTo": "Max",
+                                                                  "YOffset": 0.0,
+                                                                  "ZAlign": "Min",
+                                                                  "ZAlignTo": "None",
+                                                                  "ZOffset": 0.0,
+                                                                  "Children": [
+                                                                    {
+                                                                      "ID": "94c85aef-8c09-449e-a809-4999191b7334",
+                                                                      "Color": "#FE8D86",
+                                                                      "Depth": 50.0,
+                                                                      "Height": 7.0,
+                                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.5430678136334564,-6.4166325365195576,3.5,1.0]",
+                                                                      "MeshPath": "AA5F821F5063BD6128A914D0FC9AD256CE736E1F.stl",
+                                                                      "Name": "Cube",
+                                                                      "ThumbnailName": "Cube",
+                                                                      "TypeName": "CubeObject3D",
+                                                                      "Width": 40.0
+                                                                    },
+                                                                    {
+                                                                      "ID": "d90f1b39-1c8f-4810-88fe-a707ad30c302",
+                                                                      "AngleDegrees": 90.0,
+                                                                      "Expanded": true,
+                                                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,34.7286747038775,6.8763265667713451,-1.4825000365706842,1.0]",
+                                                                      "Name": "Rotate",
+                                                                      "RotateAbout": {
+                                                                        "Normal": {
+                                                                          "X": 1.0,
+                                                                          "Y": 0.0,
+                                                                          "Z": 0.0
+                                                                        },
+                                                                        "Origin": {
+                                                                          "X": -42.271742517510951,
+                                                                          "Y": 16.689541410116938,
+                                                                          "Z": 4.9825005134078424
+                                                                        }
+                                                                      },
+                                                                      "TypeName": "RotateObject3D_2",
+                                                                      "Children": [
+                                                                        {
+                                                                          "ID": "7bdf22e6-0982-4260-aeec-e38d2478b907",
+                                                                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,6.1230317691118863E-17,-1.0,0.0,0.0,1.0,6.1230317691118863E-17,0.0,0.0,11.707040896709096,21.67204192352478,1.0]",
+                                                                          "Name": "",
+                                                                          "Children": [
+                                                                            {
+                                                                              "ID": "133c153c-9eba-48ca-88c9-d6892c6b040c",
+                                                                              "Color": "#86FEEB",
+                                                                              "Depth": 7.0,
+                                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-42.272242242852755,20.189541886954096,3.0597973932344757E-07,1.0]",
+                                                                              "MeshPath": "8C628CC8D980BEC780B395D44CFCBC0D7E7D7297.stl",
+                                                                              "Name": "Half Cylinder",
+                                                                              "Sides": 50,
+                                                                              "ThumbnailName": "Half Cylinder",
+                                                                              "TypeName": "HalfCylinderObject3D",
+                                                                              "Width": 40.0
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "ID": "e349733b-3063-4dde-956c-f6d43132641d",
+                                                                  "Color": "#FEE686",
+                                                                  "Depth": 7.0,
+                                                                  "Height": 20.0,
+                                                                  "Matrix": "[0.99999999999999933,0.0,0.0,0.0,0.0,-4.3711390099008886E-08,0.99999999999999789,0.0,0.0,-0.99999999999999789,-4.3711390099008886E-08,0.0,-27.543067813633442,-31.416633148479029,7.0000018279021035,1.0]",
+                                                                  "MeshPath": "D600CCE5EC7203941500E2990B25018710D47597.stl",
+                                                                  "Name": "Half Wedge",
+                                                                  "ThumbnailName": "Half Wedge",
+                                                                  "TypeName": "HalfWedgeObject3D",
+                                                                  "Width": 40.0
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "ID": "c65a87fa-39c8-4461-b716-0961fdad63da",
+                                                              "Color": "#FE8D86",
+                                                              "Depth": 25.0,
+                                                              "Height": 15.0,
+                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-7.5430678136334564,-48.916633148478951,7.5,1.0]",
+                                                              "MeshPath": "3EA8285D4EA3D403D014BC83A3F11F9D2F053BFD.stl",
+                                                              "Name": "Cube (1)",
+                                                              "ThumbnailName": "Cube",
+                                                              "TypeName": "CubeObject3D",
+                                                              "Width": 35.0
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "ID": "94ce18e9-ca97-48b9-9304-5723f6d57f39",
+                                                      "Color": "#FEE686",
+                                                      "MeshPath": "36DD88C8BF3F5CEFC830C87696B106ABC336C4EC.stl",
+                                                      "Name": "Half Wedge"
+                                                    },
+                                                    {
+                                                      "ID": "ec0d40e8-01a1-4e84-b799-b3d00b3f3d5f",
+                                                      "Color": "#86FEEB",
+                                                      "MeshPath": "E0AFEC5AD402BD85A1D0C78705F8D1214CB5A498.stl",
+                                                      "Name": "Half Cylinder"
+                                                    },
+                                                    {
+                                                      "ID": "010bd2eb-1e8a-48d8-b268-6a65e9399f0a",
+                                                      "Color": "#FE8D86",
+                                                      "MeshPath": "3E5BFAD3E3FB58E3CC4BDDF6C820B4A1F4E312A4.stl",
+                                                      "Name": "Cube"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "ID": "d30d0fff-8905-47e8-a1ac-cc3bfd34807b",
+                                                  "AngleDegrees": 180.0,
+                                                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,-26.992000579833984,0.0,1.0]",
+                                                  "Name": "Rotate",
+                                                  "RotateAbout": {
+                                                    "Normal": {
+                                                      "X": 0.0,
+                                                      "Y": 0.0,
+                                                      "Z": 1.0
+                                                    },
+                                                    "Origin": {
+                                                      "X": -7.5430679321289063,
+                                                      "Y": 9.8253669738769531,
+                                                      "Z": 5.5
+                                                    }
+                                                  },
+                                                  "TypeName": "RotateObject3D_2",
+                                                  "Children": [
+                                                    {
+                                                      "ID": "34405af4-2c54-4bcd-82bb-24f7db2f4e8b",
+                                                      "Matrix": "[-1.0,-1.2246063538223773E-16,0.0,0.0,1.2246063538223773E-16,-1.0,0.0,0.0,0.0,0.0,1.0,0.0,-15.086135864257813,19.650733947753906,0.0,1.0]",
+                                                      "Name": "",
+                                                      "Children": [
+                                                        {
+                                                          "ID": "aa4f286b-6c9b-46de-8566-485d3c91502d",
+                                                          "Advanced": true,
+                                                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,36.294568224107671,12.469478243378635,0.0,1.0]",
+                                                          "Name": "Align (1)",
+                                                          "SelectedChild": [
+                                                            "Cube (2)"
+                                                          ],
+                                                          "StartingMin": {},
+                                                          "TypeName": "AlignObject3D",
+                                                          "XAlign": "Center",
+                                                          "XAlignTo": "None",
+                                                          "XOffset": 0.0,
+                                                          "YAlign": "Max",
+                                                          "YAlignTo": "Min",
+                                                          "YOffset": 0.0,
+                                                          "ZAlign": "Min",
+                                                          "ZAlignTo": "None",
+                                                          "ZOffset": 0.0,
+                                                          "Children": [
+                                                            {
+                                                              "ID": "442cdf62-56be-438f-86b1-a14bc5c1f36a",
+                                                              "Color": "#FE8D86",
+                                                              "Depth": 10.0,
+                                                              "Height": 11.0,
+                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,3.605888730498318,5.5,1.0]",
+                                                              "MeshPath": "2DFF06F9EF38255FB282FBDAB5C6044385337E2B.stl",
+                                                              "Name": "Cube (2)",
+                                                              "ThumbnailName": "Cube",
+                                                              "TypeName": "CubeObject3D",
+                                                              "Width": 31.0
+                                                            },
+                                                            {
+                                                              "ID": "b0a3476d-265b-4da6-93d7-591fd2ffa376",
+                                                              "Advanced": true,
+                                                              "Color": "#B0FE86",
+                                                              "Diameter": 31.0,
+                                                              "DiameterTop": 31.0,
+                                                              "EndingAngle": 360.0,
+                                                              "Height": 11.0,
+                                                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,-1.3941115099143282,5.5,1.0]",
+                                                              "MeshPath": "82B3384C453D86146DF8D7ABDD7D697DF2D99021.stl",
+                                                              "Name": "Cylinder",
+                                                              "Sides": 100,
+                                                              "StartingAngle": 180.0,
+                                                              "ThumbnailName": "Cylinder",
+                                                              "TypeName": "CylinderObject3D"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "ID": "bca9f6b0-4087-4073-95a9-d8a8df281c5a",
+                                          "Color": "#FE8D86",
+                                          "MeshPath": "CE91BD24521DD18D18B1B732E000DC22DE3CFAC2.stl",
+                                          "Name": "Cube"
+                                        },
+                                        {
+                                          "ID": "18ba4fdc-e613-4a63-bab7-160c60a9859b",
+                                          "Color": "#86FEEB",
+                                          "MeshPath": "E0AFEC5AD402BD85A1D0C78705F8D1214CB5A498.stl",
+                                          "Name": "Half Cylinder"
+                                        },
+                                        {
+                                          "ID": "9bcb5a0f-c7de-45de-a33f-b602c9dc9782",
+                                          "Color": "#FEE686",
+                                          "MeshPath": "36DD88C8BF3F5CEFC830C87696B106ABC336C4EC.stl",
+                                          "Name": "Half Wedge"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "ID": "f8dcff6c-1c65-4704-851d-b60a5905f78d",
+                                      "Advanced": true,
+                                      "Matrix": "[-0.99999999999999623,-8.7422779948217644E-08,0.0,0.0,8.7422779948217644E-08,-0.99999999999999623,0.0,0.0,0.0,0.0,0.999999999999998,0.0,-17.583272323212395,-3.074368138564612,2.7500009536743182,1.0]",
+                                      "Name": "Align",
+                                      "SelectedChild": [
+                                        "Cube (2)"
+                                      ],
+                                      "StartingMin": {},
+                                      "TypeName": "AlignObject3D",
+                                      "XAlign": "Center",
+                                      "XAlignTo": "None",
+                                      "XOffset": 0.0,
+                                      "YAlign": "Center",
+                                      "YAlignTo": "Min",
+                                      "YOffset": 0.0,
+                                      "ZAlign": "Min",
+                                      "ZAlignTo": "None",
+                                      "ZOffset": 0.0,
+                                      "Children": [
+                                        {
+                                          "ID": "81d6b7bc-7b5d-44d5-ada2-0ec9f560a256",
+                                          "Color": "#FE8D86",
+                                          "Depth": 20.0,
+                                          "Height": 1.5,
+                                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,3.605888730498318,0.75,1.0]",
+                                          "MeshPath": "8C650942EEF293CAB26028BB12E6C0CFB574A577.stl",
+                                          "Name": "Cube (2)",
+                                          "ThumbnailName": "Cube",
+                                          "TypeName": "CubeObject3D",
+                                          "Width": 19.1
+                                        },
+                                        {
+                                          "ID": "15c77731-2333-4ee2-bd01-62eb005c35e2",
+                                          "Advanced": false,
+                                          "Color": "#B0FE86",
+                                          "Diameter": 19.1,
+                                          "DiameterTop": 20.0,
+                                          "EndingAngle": 360.0,
+                                          "Height": 1.5,
+                                          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-43.837636156236577,-6.394111269501682,0.75,1.0]",
+                                          "MeshPath": "3E81EE675BF5F11BFBDE41AF9C1A67F86664F645.stl",
+                                          "Name": "Cylinder",
+                                          "Sides": 100,
+                                          "StartingAngle": 0.0,
+                                          "ThumbnailName": "Cylinder",
+                                          "TypeName": "CylinderObject3D"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "ID": "af8134d3-6d99-4823-80db-56754a902fcd",
+                              "Color": "#FEE686",
+                              "MeshPath": "781BE2789AF0C3CDEFBA9892D3EC9529194A71D2.stl",
+                              "Name": "Half Wedge"
+                            },
+                            {
+                              "ID": "7ecf6923-8812-44d1-9da9-5e7c01824f1f",
+                              "Color": "#86FEEB",
+                              "MeshPath": "A392F152F14129B7568AAAB85B02E7141B88461B.stl",
+                              "Name": "Half Cylinder"
+                            },
+                            {
+                              "ID": "5d39c5a0-969e-4dad-8cd2-967252841be6",
+                              "Color": "#FE8D86",
+                              "MeshPath": "C8E6072A5E0376CEA84BDDFAC52E811938C11286.stl",
+                              "Name": "Cube"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "ID": "56c352bd-c6cc-41f9-acf1-fc77e6325c4d",
+                      "Color": "#FE8D86",
+                      "MeshPath": "CA028F240B084DDA4A891A906106D7C0BCD00493.stl",
+                      "Name": "Cube"
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "ID": "929e5ccc-2001-4ee5-8e8f-5182b2f6b9e4",
+          "ID": "e00f1d6a-fd6f-4f8c-b98c-33d3c369f6a7",
           "Description": "This is a bottle opener\\n- Print it\\n- Add a penny\\n- Open bottles",
           "LocalPosition": {
             "X": 15.566263252734856,
             "Y": 37.818636492007379,
             "Z": 6.999960226642691
           },
-          "Matrix": "[0.99999999999983924,9.92022356562246E-08,2.964846654012997E-07,0.0,-9.92024977015794E-08,0.99999999999960365,8.8384125301876892E-07,0.0,-2.9648457772218712E-07,-8.8384128238416793E-07,0.99999999999956457,0.0,-22.513001448138784,-7.3217410950865194,7.6699055050477583E-06,1.0]",
+          "Matrix": "[0.99999999999983924,9.92022356562246E-08,2.964846654012997E-07,0.0,-9.92024977015794E-08,0.99999999999960365,8.8384125301876892E-07,0.0,-2.9648457772218712E-07,-8.8384128238416793E-07,0.99999999999956457,0.0,-22.513001448138784,-6.6654735927572286,7.6699055103768288E-06,1.0]",
           "Name": "Description",
           "Placement": 0,
           "PositionHasBeenSet": true,
@@ -609,35 +636,87 @@
           "Width": 1,
           "Children": [
             {
-              "ID": "117234ba-272d-44d9-bd40-dd47e1f6e7e8",
+              "ID": "7a2829a6-6bf4-4788-b399-e0585cc7b28a",
               "Name": "",
               "Children": [
                 {
-                  "ID": "ed2560ab-24f8-45dd-9b40-8f4de6107a81",
+                  "ID": "3a3888e5-d7c0-4840-8f8c-a724d1191c44",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (4)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "caaa03dc-b3fb-4259-91fb-c23cca4cb5de",
+                  "ID": "88c35676-93f4-4d77-9a2c-6760298a7f55",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (3)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "51551877-b3c2-40b7-99ec-f72300ed5ce7",
+                  "ID": "89a81410-e8fd-4e23-9691-866c9241e77d",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (2)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "c1b02bd0-edd0-4a6c-94f8-2088526cbc6b",
+                  "ID": "1071b8c2-ce3d-453d-958b-d0d595bdb1b7",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (1)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "8fa1b5d0-96f4-46b8-91da-7acec3e75cea",
+                  "ID": "de12bf46-7cfe-41b1-b29d-2281e0b83cfb",
+                  "Color": "#FFFFFF",
+                  "Name": "description_tool_top.stl"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ID": "f5aa61b3-faf2-48c5-b8e3-0956e85efb83",
+          "Description": "Here's how to change the design:\\n- Select the Bottle Opener\\n- Ungoup it by clicking the ungroup button  \\n![Ungoup](https://lh3.googleusercontent.com/WCrOvN9ayMY5WuQkc4HEes0XwWCei0SNnBqyByaoG01xMDI5MVOGAfr-uFGF-KAyiylR0ptuRuDanuJkXIIVOpQ1dR7DjBj7OjnJzw=w16)\\n- Select it again\\n- On the right click 'Change' to load an image from your computer\\n- if you don't have an image search for one and download it",
+          "LocalPosition": {
+            "X": 31.88061012431837,
+            "Y": -5.0460356156418555,
+            "Z": 6.9999960244043136
+          },
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-21.279409199334641,-28.050769490623654,0.0,1.0]",
+          "Name": "Description (1)",
+          "Placement": 3,
+          "PositionHasBeenSet": true,
+          "TypeName": "DescriptionObject3D",
+          "Width": 2,
+          "Children": [
+            {
+              "ID": "ea0b6886-b768-40ae-a11e-731813531fe7",
+              "Name": "",
+              "Children": [
+                {
+                  "ID": "a6593de3-cd79-4c31-aa51-ab67c1719840",
+                  "Color": "#7A7A7A",
+                  "Name": "description_tool_top.stl (4)",
+                  "OutputType": 1
+                },
+                {
+                  "ID": "2bea5c5b-1dfa-45a4-a68e-46d41a51c080",
+                  "Color": "#7A7A7A",
+                  "Name": "description_tool_top.stl (3)",
+                  "OutputType": 1
+                },
+                {
+                  "ID": "33454b08-8e23-462a-87a7-9a2ef1a2691d",
+                  "Color": "#7A7A7A",
+                  "Name": "description_tool_top.stl (2)",
+                  "OutputType": 1
+                },
+                {
+                  "ID": "004f8c29-5e73-44cd-b17a-7c65d895b58b",
+                  "Color": "#7A7A7A",
+                  "Name": "description_tool_top.stl (1)",
+                  "OutputType": 1
+                },
+                {
+                  "ID": "e9cb5ba5-5a02-4dc9-a58e-9a491818985a",
                   "Color": "#FFFFFF",
                   "Name": "description_tool_top.stl"
                 }
