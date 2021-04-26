@@ -1,11 +1,11 @@
 {
-  "ID": "f1eb7d1e-84d5-4318-9fe7-f8e4fed06144",
-  "Name": "Workspace 2021-04-18 08_22_57.mcx",
+  "ID": "cb218f68-7c35-4971-84aa-19fcf4a9b7a8",
+  "Name": "",
   "Children": [
     {
       "ID": "8e89422c-2a88-46b9-8450-cd4efa3e7d85",
       "Expanded": true,
-      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-11.057229498616589,0.98442929993393946,0.0,1.0]",
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,146.0500021943013,110.0,0.0,1.0]",
       "Name": "Group",
       "TypeName": "GroupObject3D",
       "Children": [
@@ -141,7 +141,7 @@
                                               "Invert": false,
                                               "MeshPath": "EE0FD6F138233F642825675EADBAD5C85733D2BB.stl",
                                               "Name": "Image",
-                                              "ScaleMmPerPixels": 0.0,
+                                              "ScaleMmPerPixels": 0.13043478260869565,
                                               "TypeName": "ImageObject3D"
                                             }
                                           ]
@@ -611,7 +611,7 @@
                     {
                       "ID": "56c352bd-c6cc-41f9-acf1-fc77e6325c4d",
                       "Color": "#FE8D86",
-                      "MeshPath": "CA028F240B084DDA4A891A906106D7C0BCD00493.stl",
+                      "MeshPath": "6273BAA3139F1BC48D5E13B7ABB84AEB60590F1B.stl",
                       "Name": "Cube"
                     }
                   ]
@@ -636,35 +636,35 @@
           "Width": 1,
           "Children": [
             {
-              "ID": "7a2829a6-6bf4-4788-b399-e0585cc7b28a",
+              "ID": "a27fdcdc-6dd7-461c-91a8-cd972104df7e",
               "Name": "",
               "Children": [
                 {
-                  "ID": "3a3888e5-d7c0-4840-8f8c-a724d1191c44",
+                  "ID": "203a105c-59a0-4e39-8aec-1ac7c4a1437c",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (4)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "88c35676-93f4-4d77-9a2c-6760298a7f55",
+                  "ID": "c8d97a13-64b9-45b4-b05f-9338232b3dee",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (3)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "89a81410-e8fd-4e23-9691-866c9241e77d",
+                  "ID": "9c725445-2bb6-4526-b26b-340fdd38ee64",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (2)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "1071b8c2-ce3d-453d-958b-d0d595bdb1b7",
+                  "ID": "8b941699-6f70-4834-9720-46ce0bd41335",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (1)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "de12bf46-7cfe-41b1-b29d-2281e0b83cfb",
+                  "ID": "8d8aaf73-b0b9-40f4-b145-ef6928fad078",
                   "Color": "#FFFFFF",
                   "Name": "description_tool_top.stl"
                 }
@@ -688,35 +688,35 @@
           "Width": 2,
           "Children": [
             {
-              "ID": "ea0b6886-b768-40ae-a11e-731813531fe7",
+              "ID": "ca0c6ceb-8e6b-48e3-baa1-282104536c0e",
               "Name": "",
               "Children": [
                 {
-                  "ID": "a6593de3-cd79-4c31-aa51-ab67c1719840",
+                  "ID": "43b83a33-2244-46f9-a830-b454d5858b05",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (4)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "2bea5c5b-1dfa-45a4-a68e-46d41a51c080",
+                  "ID": "10200717-7f9f-4223-acbc-3253bce86b31",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (3)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "33454b08-8e23-462a-87a7-9a2ef1a2691d",
+                  "ID": "c4a70349-0c73-46ac-99cc-536019d4ea79",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (2)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "004f8c29-5e73-44cd-b17a-7c65d895b58b",
+                  "ID": "572db1fd-0c06-4195-ae46-6209892e67a7",
                   "Color": "#7A7A7A",
                   "Name": "description_tool_top.stl (1)",
                   "OutputType": 1
                 },
                 {
-                  "ID": "e9cb5ba5-5a02-4dc9-a58e-9a491818985a",
+                  "ID": "a3afaf4f-00d3-490a-aab1-98309d7823f0",
                   "Color": "#FFFFFF",
                   "Name": "description_tool_top.stl"
                 }
