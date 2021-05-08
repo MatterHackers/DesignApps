@@ -1,13 +1,13 @@
 {
-  "ID": "a915c20f-9956-439d-abce-96704ca4259a",
-  "Name": "",
+  "ID": "45613df5-a061-4684-9f11-fe8926509abf",
+  "Name": "Workspace 2021-05-07 16_52_23.mcx",
   "Children": [
     {
       "ID": "88f50cc3-b751-4ac6-bde1-2ac1d4a71dff",
       "ComponentID": "",
       "Finalized": true,
-      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-90.799999237060547,1.4250011444091797,0.10000000149011612,1.0]",
-      "Name": "Image",
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-91.48396369351164,9.6808122644875425,0.10000000149011612,1.0]",
+      "Name": "Card Holder w' Logo",
       "ProOnly": false,
       "SurfacedEditors": [
         "$.Children<AlignObject3D>.Children<FitToBoundsObject3D>.Children<Object3D>.Children<LinearExtrudeObject3D>.Children<SmoothPathObject3D>.Children<ImageToPathObject3D>.Children<ImageObject3D>"
@@ -17,6 +17,7 @@
         {
           "ID": "f25c574b-a547-48a3-a5a5-ead0c27de37f",
           "Advanced": true,
+          "EasyModeMessage": "You can switch to Advanced mode to get more align options.",
           "Name": "Align",
           "SelectedChild": [
             "7ac2d7f8-e7b7-47b9-af39-e6eff4f20abb"
@@ -58,7 +59,7 @@
               "Height": 10.0,
               "MaintainRatio": 1,
               "MaterialIndex": 1,
-              "Matrix": "[1.0,0.0,0.0,0.0,0.0,0.99756407465298236,-0.069756124904824829,0.0,0.0,0.069756124904824829,0.99756407465298236,0.0,1.5242027840751007,33.827180713014641,6.0130124010485995,1.0]",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,0.99756407465298236,-0.069756124904824829,0.0,0.0,0.069756124904824829,0.99756407465298236,0.0,1.5242027840751007,33.827180713014641,6.0130124010486,1.0]",
               "Name": "Fit to Bounds",
               "StretchX": true,
               "StretchY": true,
@@ -73,10 +74,6 @@
                   "Children": [
                     {
                       "ID": "2449dbe5-7a68-427f-a81c-3660369fd580",
-                      "BevelInset": 2.0,
-                      "BevelStart": 4.0,
-                      "BevelSteps": 1,
-                      "BevelTop": false,
                       "Color": "#00AAFF",
                       "Height": 5.0,
                       "Matrix": "[0.59263642300671393,0.0,0.0,0.0,0.0,0.5696786644927434,0.16335283620419819,0.0,0.0,-0.16335283620419824,0.56967866449274329,0.0,89.301872261175077,-50.428040304844863,-3.0877211046108259,1.0]",
@@ -126,6 +123,58 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "bd7fd1c9-cfe7-4d03-97e6-cdcc7217ed78",
+      "Description": "Here's how to customize this design:\\n- Select the Card Holder\\n- Ungoup it by clicking the ungroup button  \\n![Ungoup](https://lh3.googleusercontent.com/WCrOvN9ayMY5WuQkc4HEes0XwWCei0SNnBqyByaoG01xMDI5MVOGAfr-uFGF-KAyiylR0ptuRuDanuJkXIIVOpQ1dR7DjBj7OjnJzw=w16)\\n- Select it again\\n- On the right, click 'Change' to load an image from your computer\\n- If you don't have an image, search for one and download it",
+      "LocalPosition": {
+        "X": 112.81794834077303,
+        "Y": 47.367565083950495,
+        "Z": 27.161971327665043
+      },
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-65.5889560942461,-14.345519687157832,0.0,1.0]",
+      "Name": "Instructions",
+      "Placement": 2,
+      "PositionHasBeenSet": true,
+      "TypeName": "DescriptionObject3D",
+      "Width": 2,
+      "Children": [
+        {
+          "ID": "dfeac7d2-0c41-4ed3-b818-8fe58f120fdd",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "c8779481-9c99-4f61-918c-d53df8206c63",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (4)",
+              "OutputType": 1
+            },
+            {
+              "ID": "0708e164-31bf-4873-94ba-66520ea8f371",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (3)",
+              "OutputType": 1
+            },
+            {
+              "ID": "ae071c33-04ee-44d5-b21a-ddbc5e693f9f",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (2)",
+              "OutputType": 1
+            },
+            {
+              "ID": "c5165cc2-8597-4715-ac32-a3c5535ce440",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (1)",
+              "OutputType": 1
+            },
+            {
+              "ID": "6db2f4a3-bd88-42a6-b7fe-381777dd3576",
+              "Color": "#FFFFFF",
+              "Name": "description_tool_top.stl"
             }
           ]
         }

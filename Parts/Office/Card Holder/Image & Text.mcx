@@ -1,11 +1,12 @@
 {
-  "ID": "f50b9a16-4650-4cb8-9982-75a8f5c770e9",
-  "Name": "",
+  "ID": "7a7ce9af-6f62-450b-9962-28fce2564081",
+  "Name": "Workspace 2021-05-07 16_56_19.mcx",
   "Children": [
     {
       "ID": "1d70f8ae-d1ff-49eb-b2ff-ece379618333",
       "ComponentID": "",
       "Finalized": true,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0464953508138137,0.23792546706584972,2.6645352591003757E-15,1.0]",
       "Name": "Image & Text",
       "ProOnly": false,
       "SurfacedEditors": [
@@ -18,6 +19,7 @@
         {
           "ID": "46816fe4-d3f6-46a5-8a9d-9e5d3039bc3a",
           "Advanced": true,
+          "EasyModeMessage": "You can switch to Advanced mode to get more align options.",
           "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,26.799999237060547,66.42500114440918,0.0,1.0]",
           "Name": "Align",
           "SelectedChild": [
@@ -49,6 +51,7 @@
             {
               "ID": "7707b090-0dd4-44e0-b74c-3c6d6dd0d140",
               "Advanced": true,
+              "EasyModeMessage": "You can switch to Advanced mode to get more align options.",
               "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-117.59999847412109,-65.0,0.10000000149011612,1.0]",
               "Name": "Align",
               "SelectedChild": [
@@ -91,7 +94,7 @@
                   "Height": 10.0,
                   "MaintainRatio": 1,
                   "MaterialIndex": 1,
-                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,0.99756407465298236,-0.069756124904824829,0.0,0.0,0.069756124904824829,0.99756407465298236,0.0,-35.275796452985432,33.827180713014641,6.0130124010486,1.0]",
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,0.99756407465298236,-0.069756124904824829,0.0,0.0,0.069756124904824829,0.99756407465298236,0.0,-35.275796452985425,33.827180713014641,6.0130124010485995,1.0]",
                   "Name": "Fit to Bounds",
                   "StretchX": true,
                   "StretchY": true,
@@ -106,10 +109,6 @@
                       "Children": [
                         {
                           "ID": "af8ba4ad-3771-4b32-8372-1a4cf6c23802",
-                          "BevelInset": 2.0,
-                          "BevelStart": 4.0,
-                          "BevelSteps": 1,
-                          "BevelTop": false,
                           "Color": "#00AAFF",
                           "Height": 5.0,
                           "Matrix": "[0.59263642300671393,0.0,0.0,0.0,0.0,0.5696786644927434,0.16335283620419819,0.0,0.0,-0.16335283620419824,0.56967866449274329,0.0,89.301872261175077,-50.428040304844863,-3.0877211046108259,1.0]",
@@ -165,7 +164,7 @@
             {
               "ID": "98c5793f-7a25-4bf1-b73d-0e86b423497d",
               "AngleDegrees": -17.0,
-              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-179.75321934277079,-175.70602317856282,-1.1855210628650648,1.0]",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-179.75321934277079,-175.70602317856282,-1.1855210628650665,1.0]",
               "Name": "Rotate (1)",
               "RotateAbout": {
                 "Normal": {
@@ -214,7 +213,6 @@
                               "Name": "Text",
                               "NameToWrite": "MatterHackers",
                               "PointSize": 24.0,
-                              "ThumbnailName": "Text",
                               "TypeName": "TextObject3D",
                               "Children": [
                                 {
@@ -311,6 +309,110 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "cfea1b47-e49f-42b3-89db-d333f37a5f86",
+      "Description": "Here's how to change the logo:\\n- Select the Card Holder\\n- Ungoup it by clicking the ungroup button  \\n![Ungoup](https://lh3.googleusercontent.com/WCrOvN9ayMY5WuQkc4HEes0XwWCei0SNnBqyByaoG01xMDI5MVOGAfr-uFGF-KAyiylR0ptuRuDanuJkXIIVOpQ1dR7DjBj7OjnJzw=w16)\\n- Select it again\\n- On the right, click 'Change' to load an image from your computer\\n- If you don't have an image, search for one and download it",
+      "LocalPosition": {
+        "X": 20.09247287607144,
+        "Y": -14.096090980458939,
+        "Z": 11.256059992323518
+      },
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-64.794802975478973,9.3855421486479713,0.0,1.0]",
+      "Name": "Instructions",
+      "Placement": 0,
+      "PositionHasBeenSet": true,
+      "TypeName": "DescriptionObject3D",
+      "Width": 2,
+      "Children": [
+        {
+          "ID": "65f00bcf-3fe9-4239-b958-e7d1b8238bc6",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "b29c378f-9b0c-4890-bc00-13145b193595",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (4)",
+              "OutputType": 1
+            },
+            {
+              "ID": "a81171ff-d3aa-4584-bd5f-af2b3274f888",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (3)",
+              "OutputType": 1
+            },
+            {
+              "ID": "798b2b2d-508e-45b2-987b-42832fba0f9c",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (2)",
+              "OutputType": 1
+            },
+            {
+              "ID": "8a73f57e-97fd-4e51-a309-faab610a9fd0",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (1)",
+              "OutputType": 1
+            },
+            {
+              "ID": "c762ca7f-1526-41c1-88b1-19b3be6b9115",
+              "Color": "#FFFFFF",
+              "Name": "description_tool_top.stl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "157e3da5-b381-4f43-b291-e5dbf4e29755",
+      "Description": "Here's how to change the text:\\n- Make sure you have ungrouped the Card Holder\\n- Select the Card Holder\\n- Replace \"MatterHackers\" with your name (you may need to scroll down a bit)\\n- After you change the text, try changing the Font",
+      "LocalPosition": {
+        "X": 73.4995208081192,
+        "Y": -7.1364448294802543,
+        "Z": 5.9704362151537422
+      },
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-65.5889560942461,-14.345519687157832,0.0,1.0]",
+      "Name": "Instructions (1)",
+      "Placement": 3,
+      "PositionHasBeenSet": true,
+      "TypeName": "DescriptionObject3D",
+      "Width": 2,
+      "Children": [
+        {
+          "ID": "192916e7-b6d2-4b67-8478-c3e4c8c5f062",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "0d8b1d15-36c5-4237-8082-b2826fa9e898",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (4)",
+              "OutputType": 1
+            },
+            {
+              "ID": "b05bf647-40ca-458c-9ebd-c782ab2f87ce",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (3)",
+              "OutputType": 1
+            },
+            {
+              "ID": "0de526e7-5de7-4438-b256-119317a40089",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (2)",
+              "OutputType": 1
+            },
+            {
+              "ID": "7a4de4a4-b4b1-4cee-9272-b1ea7b2079ec",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (1)",
+              "OutputType": 1
+            },
+            {
+              "ID": "833ca1c3-95e1-4f83-b7bc-b16edb9890df",
+              "Color": "#FFFFFF",
+              "Name": "description_tool_top.stl"
             }
           ]
         }

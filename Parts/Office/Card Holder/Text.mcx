@@ -1,12 +1,12 @@
 {
-  "ID": "35ff73c7-7172-40cb-afb3-b36e605477e2",
-  "Name": "",
+  "ID": "f0eaeb0f-cd6e-44df-a94b-7bad370e8383",
+  "Name": "Workspace 2021-05-07 17_01_41.mcx",
   "Children": [
     {
       "ID": "4cd73e9b-0acb-4bbe-891b-52e477ec2241",
       "ComponentID": "",
       "Finalized": true,
-      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-3.2000007629394531,11.42500114440918,0.0,1.0]",
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-0.31698603112118917,16.195695950331597,1.7763568394002505E-15,1.0]",
       "Name": "Text",
       "ProOnly": false,
       "SurfacedEditors": [
@@ -18,6 +18,7 @@
         {
           "ID": "03b8ba35-daa6-4926-946c-01e09de2f44e",
           "Advanced": true,
+          "EasyModeMessage": "You can switch to Advanced mode to get more align options.",
           "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-128.59999847412109,-119.0,-1.4210854715202004E-14,1.0]",
           "Name": "Align",
           "SelectedChild": [],
@@ -91,7 +92,6 @@
                               "Name": "Text",
                               "NameToWrite": "MatterHackers",
                               "PointSize": 24.0,
-                              "ThumbnailName": "Text",
                               "TypeName": "TextObject3D",
                               "Children": [
                                 {
@@ -188,6 +188,58 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ID": "52955374-0d90-4ec8-9f9b-4c869142ed3c",
+      "Description": "Here's how to change the text:\\n- Select the Card Holder\\n- Ungoup it by clicking the ungroup button  \\n![Ungoup](https://lh3.googleusercontent.com/WCrOvN9ayMY5WuQkc4HEes0XwWCei0SNnBqyByaoG01xMDI5MVOGAfr-uFGF-KAyiylR0ptuRuDanuJkXIIVOpQ1dR7DjBj7OjnJzw=w16)\\n- Select it again\\n- Replace \"MatterHackers\" with your name (you may need to scroll down a bit)\\n- After you change the text, try changing the Font",
+      "LocalPosition": {
+        "X": 22.175660518884968,
+        "Y": -27.507811394677177,
+        "Z": 5.6007277990796656
+      },
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-64.794802975478973,9.3855421486479713,0.0,1.0]",
+      "Name": "Instructions",
+      "Placement": 3,
+      "PositionHasBeenSet": true,
+      "TypeName": "DescriptionObject3D",
+      "Width": 2,
+      "Children": [
+        {
+          "ID": "f668d153-5af7-4082-acf8-c1e759e62b69",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "35eb29f8-a322-4789-b24b-bcf3761387f7",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (4)",
+              "OutputType": 1
+            },
+            {
+              "ID": "b264cbdb-32cf-4942-bbf0-788c348ab4be",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (3)",
+              "OutputType": 1
+            },
+            {
+              "ID": "3e25bd83-4cb8-4b65-a36f-4f77f3ab6ac4",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (2)",
+              "OutputType": 1
+            },
+            {
+              "ID": "089dd33a-ff6c-495b-8475-94e1b658747a",
+              "Color": "#7A7A7A",
+              "Name": "description_tool_top.stl (1)",
+              "OutputType": 1
+            },
+            {
+              "ID": "a85d39f6-a82a-4871-ae21-dde00adb0708",
+              "Color": "#FFFFFF",
+              "Name": "description_tool_top.stl"
             }
           ]
         }
