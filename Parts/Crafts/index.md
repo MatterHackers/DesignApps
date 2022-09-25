@@ -1,1 +1,1 @@
-DesignApps are created in MatterControl and allow for quick customization of printable designs.
+Here you can find designs to help with all your creative activities.
