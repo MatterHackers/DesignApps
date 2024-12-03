@@ -1,1 +1,1 @@
-DesignApps are created in MatterControl and allow for quick customization of printable designs.
+DesignApps are created in MatterCAD and allow for quick customization of 3D designs.
